@@ -1,0 +1,44 @@
+.service {
+    background:  url("https://static.wixstatic.com/media/faa724_d734da5ed0294407856cc563153b1273~mv2.jpg/v1/crop/x_0,y_0,w_1024,h_504,q_85,enc_auto/faa724_d734da5ed0294407856cc563153b1273~mv2.jpg");
+    background-size: cover;
+    color:white ;
+}
+.home {
+    background:  url("https://static.wixstatic.com/media/faa724_3d6499f4ae154c08b72e1e96f2d1b133~mv2.jpg/v1/fill/w_1903,h_821,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/faa724_3d6499f4ae154c08b72e1e96f2d1b133~mv2.jpg");
+    background-size: cover;
+    color:white ;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;    
+}
+
+h2{
+    color:#F2F2F2 ;
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color:#F2F2F2 ;
+    font-family: 'Geologica', sans-serif;
+}
+
+body {
+font-family: 'Nunito', sans-serif;
+}
+.navbar {
+    position: relative; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+  
+/* Style the navbar links */
+.navbar a {
+float: left;
+display: block;
+color: white;
+text-align: center;
+height: 30px;
+text-decoration: none;
+}
+
