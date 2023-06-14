@@ -13,4 +13,8 @@ class ClientController extends Controller
     public function service(){
         return view ('client.service');
     }
+    public function financial(){
+        return view ('client.financial');
+
+    }
 }

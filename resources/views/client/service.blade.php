@@ -7,7 +7,7 @@ SERVICE
 
 <div class="service text-center text-white">
     <div class="container">
-    <div class="row align-items-center" style="height: 100vh;">
+    <div class="row align-items-center" style="height: 616px;">
         <div class="col">
         <h1 class="display-1">
            
@@ -29,16 +29,23 @@ SERVICE
 
 <div>
     <img src="https://static.wixstatic.com/media/faa724_9ef590388f86454c8e505e9dee70b01f~mv2.png/v1/fill/w_1823,h_171,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/faa724_9ef590388f86454c8e505e9dee70b01f~mv2.png" 
-    style="width:100% ; height:100%"/>
+    style="width:100% ; height:137px"/>
 </div>
 
+<div style="background-color:#333B3D ;height:630px" >
 
-<div style="background-color:#232B2D " >
-    <div class="container "  style="padding:90px ">
-        <video src="https://video.wixstatic.com/video/faa724_3b4dfad0fe7b4c1ea2d3997fb4adac8b/1080p/mp4/file.mp4" 
-        style="width:100% ; height:100% " ></video>
+    <div id="myVideoContainer">
+        <video id="myVideo" playsinline>
+            <source src="https://video.wixstatic.com/video/faa724_d7c6be0112bb47a79c5e2eabb53772a9/1080p/mp4/file.mp4" type="video/mp4">
+        </video>
+        <div class="video-controls">
+            <button id="play-pause-button"><i class="fas fa-play"></i></button>
+            <button id="mute-button"><i class="fas fa-volume-up"></i></button>
+            <button id="fullscreen-button"><i class="fas fa-expand"></i></button>
+        </div>
     </div>
 </div>
+
 
 <div style="background-color:#242323 " >
     <div class="container "  style="padding:90px ">
@@ -73,4 +80,44 @@ SERVICE
 </div>
 
 
+@endsection
+@section('script')
+<script>
+    var video = document.getElementById("myVideo");
+    var playPauseButton = document.getElementById("play-pause-button");
+    var muteButton = document.getElementById("mute-button");
+    var fullscreenButton = document.getElementById("fullscreen-button");
+
+    playPauseButton.addEventListener("click", function() {
+        if (video.paused || video.ended) {
+            video.play();
+            playPauseButton.innerHTML = '<i class="fas fa-pause"></i>';
+        } else {
+            video.pause();
+            playPauseButton.innerHTML = '<i class="fas fa-play"></i>';
+        }
+    });
+
+    muteButton.addEventListener("click", function() {
+        if (video.muted) {
+            video.muted = false;
+            muteButton.innerHTML = '<i class="fas fa-volume-up"></i>';
+        } else {
+            video.muted = true;
+            muteButton.innerHTML = '<i class="fas fa-volume-mute"></i>';
+        }
+    });
+
+    fullscreenButton.addEventListener("click", function() {
+        if (video.requestFullscreen) {
+            video.requestFullscreen();
+        } else if (video.mozRequestFullScreen) {
+            video.mozRequestFullScreen();
+        } else if (video.webkitRequestFullscreen) {
+            video.webkitRequestFullscreen();
+        } else if (video.msRequestFullscreen) {
+            video.msRequestFullscreen();
+        }
+    });
+</script>
 @endsection

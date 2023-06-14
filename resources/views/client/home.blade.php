@@ -22,7 +22,7 @@ home
 </div>    
     
  
-<div class=" text-justify"  style="padding:5% ;background:#242323 ;color:#ffff; height:640px " >
+<div class=" text-justify"  style="padding:5% ;margin:0% ;background:#242323 ;color:#ffff; height:70% " >
     <div class="container " >
         <h2 class="text-center ">ABOUT</h2>          
         <h1 class="text-center my-5  ">JEAN LOREL AKA</h1>
@@ -35,20 +35,43 @@ home
         </p>
     </div>
     <div class=" d-flex justify-content-center" >
-    <a href="https://www.instagram.com/afro_french_touch/"><img src="https://static.wixstatic.com/media/40898a93cfff4578b1779073137eb1b4.png/v1/fill/w_53,h_53,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/40898a93cfff4578b1779073137eb1b4.png"></a>
-    <a href="https://www.instagram.com/afro_french_touch/"><img src="https://static.wixstatic.com/media/aeb686ff41244d85bc1232fcf7325ec0.png/v1/fill/w_53,h_53,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/aeb686ff41244d85bc1232fcf7325ec0.png"></a>
-    <a href="https://www.instagram.com/afro_french_touch/"><img src="https://static.wixstatic.com/media/a1fed5f687844a6e8f42e017f71dfcb4.png/v1/fill/w_53,h_53,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a1fed5f687844a6e8f42e017f71dfcb4.png"></a>
+        <a href="https://www.instagram.com/afro_french_touch/"><img src="https://static.wixstatic.com/media/40898a93cfff4578b1779073137eb1b4.png/v1/fill/w_53,h_53,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/40898a93cfff4578b1779073137eb1b4.png"></a>
+        <a href="https://www.instagram.com/afro_french_touch/"><img src="https://static.wixstatic.com/media/aeb686ff41244d85bc1232fcf7325ec0.png/v1/fill/w_53,h_53,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/aeb686ff41244d85bc1232fcf7325ec0.png"></a>
+        <a href="https://www.instagram.com/afro_french_touch/"><img src="https://static.wixstatic.com/media/a1fed5f687844a6e8f42e017f71dfcb4.png/v1/fill/w_53,h_53,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a1fed5f687844a6e8f42e017f71dfcb4.png"></a>
     </div>
 </div>   
-<div class="container">
-    <div class="d-flex justify-content-center p-3">
-        <img src="https://static.wixstatic.com/media/faa724_1ccccbc23d1944889ce83b7244399a91~mv2.png/v1/fill/w_642,h_36,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Screenshot%202023-05-30%20at%2010_52_36.png"/>
+
+
+<div class="container"  >
+    <div class="d-flex justify-content-center " style="padding:0% ;margin:0% ;width:25%">
+        <img src="https://static.wixstatic.com/media/faa724_1ccccbc23d1944889ce83b7244399a91~mv2.png/v1/fill/w_642,h_36,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Screenshot%202023-05-30%20at%2010_52_36.png"  />
     </div>
 </div>
-<div class="container">
-    <div class="row " style="height:800px">
-        <div class="col-6 bg-dark m-4"   style="height:400px"></div>
-        <div class="col bg-danger m-4" style="height:400px"></div>
+
+
+
+{{-- <section style="background:#242323 ;color:#ffff ">
+    <div class="container" style="height:510px ;" >
+        <div class="row  "  >
+            <h2 class="text-center  "> RETAIL SERVICES</h2>
+            <div class="col-lg-6   "   style="height:400px">
+            <img src="https://static.wixstatic.com/media/faa724_c1162fb6f8d9486f88951449a09caaee~mv2.png/v1/crop/x_147,y_104,w_1663,h_898/fill/w_525,h_281,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Sans_titre__1_-removebg.png">
+            </div>
+            <div class="col " style="height:400px">
+                <img src="https://static.wixstatic.com/media/faa724_f96390b9af4541cb825a7a965c8089df~mv2.png/v1/crop/x_12,y_0,w_324,h_287/fill/w_156,h_138,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Screenshot_2020-09-04_at_09_21_edited_pn.png"/>
+                <h2>
+                    Forex pro trader program FR
+                </h2>
+                <hr>
+                <p>
+                    Le Forex Pro Trader Program est la meilleure formation de trading en France. Avec plusieurs centaines de témoignages vérifiés, cette formation a permis à des traders retail de passer à un niveau institutionnel.
+                </p>
+                <form action="{{url('/financial')}}" method="get">
+                    @csrf
+                     <button class="btn btn-success" >en savoir plus >></button>
+                </form>
+            </div>
+        </div>
     </div>
-</div>
+</section> --}}
 @endsection

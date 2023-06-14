@@ -17,6 +17,8 @@ use App\Http\Controllers\ClientController;
 
 Route::get('/', [ClientController::class,'home']);
 Route::get('/service', [ClientController::class,'service']);
+Route::get('/financial', [ClientController::class,'financial']);
+
 
 
 Auth::routes();
