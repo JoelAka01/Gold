@@ -29,6 +29,20 @@ h3{
 
 
 }
+h4{
+    color: #01A7C2;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;    
+    padding: 10px;
+
+
+}
+h5{
+    color:#F2F2F2 ;
+    font-family: 'Geologica', sans-serif;
+    padding: 10px;  
+    font-size: 17px;
+}
 h1{
     color:#F2F2F2 ;
     font-family: 'Geologica', sans-serif;
@@ -40,10 +54,7 @@ body {
 font-family: 'Nunito', sans-serif;
 }
 .navbar {
-    position: relative; /* Make it stick/fixed */
-    top: 0; /* Stay on top */
-    width: 100%; /* Full width */
-    height: 70px;
+
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
   
