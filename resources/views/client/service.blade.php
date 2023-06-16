@@ -10,16 +10,16 @@ SERVICE
     <div class="row align-items-center" style="height: 616px;">
         <div class="col">
         <h1 class="display-1">
-           
-            GOLDSTREET
-            FINANCIAL
+           <span style="color:#F2CB05">GOLDSTREET</span>
+            
+            DATANALYSE 
 
         </h1>
         <p style="font-size:17px">
             PROPULSE TES RÉSULTATS EN TRADING FOREX AVEC DES INFOS, DATAS ET RECHERCHES PROFESSIONNELS JOURNALIÈRES
 
         </p>
-        <a href="#" style="background-color: #FF9A38" class="btn btn-outline-dark  px-4 py-2">
+        <a href="#" style="background-color: #F2CB05" class="btn btn-outline-dark  px-4 py-2">
            REJOINDRE
         </a>
         </div>
@@ -28,13 +28,13 @@ SERVICE
 </div>
 
 <div>
-    <img src="https://static.wixstatic.com/media/faa724_9ef590388f86454c8e505e9dee70b01f~mv2.png/v1/fill/w_1823,h_171,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/faa724_9ef590388f86454c8e505e9dee70b01f~mv2.png" 
-    style="width:100% ; height:137px"/>
+    <img  src="{{ asset('frontend/css/Capture.JPG')}}" 
+    style="width:1903px ; height:100px"/>
 </div>
 
-<div style="background-color:#333B3D ;height:630px" >
+<div class="service" style="background-color:#333B3D ;height:630px" >
 
-    <div id="myVideoContainer">
+    {{-- <div id="myVideoContainer">
         <video id="myVideo" playsinline>
             <source src="https://video.wixstatic.com/video/faa724_d7c6be0112bb47a79c5e2eabb53772a9/1080p/mp4/file.mp4" type="video/mp4">
         </video>
@@ -43,11 +43,11 @@ SERVICE
             <button id="mute-button"><i class="fas fa-volume-up"></i></button>
             <button id="fullscreen-button"><i class="fas fa-expand"></i></button>
         </div>
-    </div>
+    </div> --}}
 </div>
 
 
-<div style="background-color:#242323 " >
+<div style="background-color:#eceff0 " >
     <div class="container "  style="padding:90px ">
     <h1 class="text-center "> UN SERVICE UNIQUE EN FRANCE POUR LES TRADERS CONFIRMÉS </h1>
     <div class="row py-5">
@@ -75,7 +75,7 @@ SERVICE
         </div>
 
     </div>
-    <button type="button" class="btn btn-block btn-lg " style="background-color: #FF9A38 ; margin: auto; display: block;"> REJOINDRE </button>
+    <button type="button" class="btn btn-block btn-lg " style="background-color:  ; margin: auto; display: block;"> REJOINDRE </button>
     </div>
 </div>
 

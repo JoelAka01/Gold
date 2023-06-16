@@ -1,7 +1,14 @@
 .service {
-    background:  url("https://static.wixstatic.com/media/faa724_d734da5ed0294407856cc563153b1273~mv2.jpg/v1/crop/x_0,y_0,w_1024,h_504,q_85,enc_auto/faa724_d734da5ed0294407856cc563153b1273~mv2.jpg");
+    background:  url("https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28312.jpg?w=1800&t=st=1686857794~exp=1686858394~hmac=471075578a2f9b8e8fb1045bef9b0bbb33ab12f1abb805d0f463f87dfa3c268f");
     background-size: cover;
     color:white ;
+}
+.financial {
+    background:  url("https://img.freepik.com/photos-gratuite/fond-ecran-grunge-sombre-3d-atmosphere-enfumee_1048-16218.jpg?w=1060&t=st=1686936856~exp=1686937456~hmac=b7c998b37433887382894facf694bb8528e14515f345dc04d5d16967322b136c");
+    background-size: cover;
+    color:black ;
+    height: 100%;
+
 }
 .home {
     background:  url("https://static.wixstatic.com/media/faa724_3d6499f4ae154c08b72e1e96f2d1b133~mv2.jpg/v1/fill/w_1903,h_821,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/faa724_3d6499f4ae154c08b72e1e96f2d1b133~mv2.jpg");
@@ -11,7 +18,9 @@
 
 p{
     font-family: 'Open Sans', sans-serif;    
-    font-size: 14px;
+    font-size: 16px;
+    color:black ;
+
 }
 
 h2{
@@ -24,13 +33,13 @@ h2{
 h3{
     color: #FFFF;
     font-size: 20px;
-    font-family: 'Open Sans', sans-serif;    
+    font-family: 'Geologica', sans-serif;
     padding: 10px;
 
 
 }
 h4{
-    color: #01A7C2;
+    color: #F2CB05;
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;    
     padding: 10px;
@@ -46,7 +55,6 @@ h5{
 h1{
     color:#F2F2F2 ;
     font-family: 'Geologica', sans-serif;
-    padding: 10px;
 
 }
 
@@ -62,7 +70,7 @@ font-family: 'Nunito', sans-serif;
 .navbar a {
 float: left;
 display: block;
-color: white;
+color: rgb(252, 252, 252);
 text-align: center;
 height: 30px;
 text-decoration: none;

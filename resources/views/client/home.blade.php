@@ -60,7 +60,7 @@ home
 
 <div class="container"  >
     <div class="d-flex justify-content-center " >
-        <img style="width: 65%"   src="https://static.wixstatic.com/media/faa724_1ccccbc23d1944889ce83b7244399a91~mv2.png/v1/fill/w_642,h_36,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Screenshot%202023-05-30%20at%2010_52_36.png"  />
+        %
     </div>
 </div>
 
@@ -104,12 +104,12 @@ home
             <div class="col " >
                 <img  src="https://static.wixstatic.com/media/faa724_2dd967b5832044e0a926c8756418a8c6~mv2.png/v1/crop/x_0,y_0,w_280,h_287/fill/w_136,h_135,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/image_PA-removebg-preview%20orngae.png"/>
                 <h2> 
-                    DATANALYSE
-                    PRO service
+                    GOLD STREET 
+                     service
                 </h2>
                 <hr>
                 <p>
-                    Données, recherches et prévisions de niveau institutionnel sur le marché du Forex, le tout en un seul abonnement. Le Datanalyse Pro Service vous donne l'opportunité de trader mes positions les plus rentables chaque semaine et de recevoir des informations techniques et fondamentales directes sur le marché du Forex.   
+                    Ce service vous offre une vision d'ensemble de la situation économique d'un pays. Les données seront analysées de manière précise, vous permettant ainsi de trader les positions les plus rentables chaque semaine. De plus, cela se fait sans aucun engagement de votre part          
                 </p>
                 <form action="{{url('/financial')}}" method="get">
                     @csrf
@@ -125,7 +125,7 @@ home
 </div>
 <div class="container"  >
     <div class="d-flex justify-content-center " >
-        <img style="width: 65%"   src="https://static.wixstatic.com/media/faa724_1ccccbc23d1944889ce83b7244399a91~mv2.png/v1/fill/w_642,h_36,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Screenshot%202023-05-30%20at%2010_52_36.png"  />
+        %
     </div>
 </div>
 

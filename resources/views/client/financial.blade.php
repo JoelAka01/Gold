@@ -5,115 +5,179 @@ financial
 
 @section('content')
 
-<div class="service text-center text-white">
+<div class="financial text-center text-white ">
     <div class="container">
-        <div class=" align-items-center" style="height: 100vh;">
-            <div class="container p-4" >
-                <img src="https://static.wixstatic.com/media/faa724_d16bb82cbe48421aa53ff3e7d8d6cdc6~mv2.png/v1/fill/w_202,h_60,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Screen_Shot_2023-05-10_at_5_51_58_PM-removebg-preview.png">
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>
+                <span style="color:#F2CB05">GOLDSTREET</span>
+                FINANCIAL
+                </h1>
+                <span>Le secret du succès financier !</span>
+                <div>
+                    <h3 style="color:#F2CB05" >
+                        Si vous pouvez obtenir des autres qu’ils creusent eux-mêmes leur propre tombe, Pourquoi vous fatiguer ?
+                    </h3>
+                    <p style="color: #eceff0">
+                        Apprends des stratégies pratiques éprouvées pour devenir un trader qui gagne régulièrement de l'argent sur le marché boursier en moins de 3 mois
+                    </p>
+                </div>
+            </div>
+            <div class="col">
+                <video autoplay muted loop id="myVideo" style=" height:311px ">
+                    <source src="https://video.wixstatic.com/video/faa724_d7c6be0112bb47a79c5e2eabb53772a9/1080p/mp4/file.mp4"   type="video/mp4">
+                </video>
+                <form action="{{url('/service')}}" method="get">
+                    @csrf
+                    <button style="background-color:#F2CB05 " class="btn " >inscription >></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    {{-- section, 2 --}}
+    <div class="py-2 ">
+        <div class="container "  >
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="d-flex justify-content-center " >
+                        <img  style="height:311px"  src="{{ asset('frontend/css/A.png')}}"/>       
+                    </div>
+                    <div >
+                        <h3 style="color:#F2CB05"> Connaissez-vous le secret de la réussite du vautour qui obtient toujours la meilleure part ? </h3>
+                        <p style="color: #eceff0">
+                            Cette formation vous offre l'opportunité de vous démarquer en utilisant des stratégies simples et éprouvées. 
+                            En développant vos compétences,
+                             vous serez en mesure de prendre des décisions éclairées et d'adopter une approche gagnante, vous démarquant ainsi de la masse
+                        </p>
+                    </div>
+                </div>
+                <div class="col" >
+
+                    <div class="row " >
+                        <div class="container" style="height:130px">
+                        </div>
+                        <h1 >Outils a utiliser</h1>
+
+                        <div class="col">
+                            <img style="height:130px" class="m-2" src="{{ asset('frontend/css/graph.jpg')}}"/>
+                            <img style="height:130px" width="280px" src="{{ asset('frontend/css/graph2.jpg')}}"/>
+                        </div>
+                        <div class="col ">
+                            <img style="height:130px" width="280px" class="m-2" src="{{ asset('frontend/css/graph3.jpg')}}"/>
+                            <img style="height:130px" width="280px" src="{{ asset('frontend/css/graph4.jpg')}}"/>
+                        </div>
+
+                    </div>
+                </div>
 
             </div>
-            <video autoplay muted loop id="myVideo" style=" height:500px ">
-                <source src="https://video.wixstatic.com/video/faa724_d7c6be0112bb47a79c5e2eabb53772a9/1080p/mp4/file.mp4"   type="video/mp4">
-            </video>
-            <h1 >
-                Transforme ton épargne en fortune et atteints l'indépendance financière de manière prouvé
-            </h1>
-            <form action="{{url('/service')}}" method="get">
-                @csrf
-                <button class="btn btn-info" >preinscription >></button>
-            </form>
-
-
         </div>
     </div>
 </div>
 
-
-
-
-<div style="background-color:#eceff0 " >
-    <div class="container "  >
-        <h1 class="text-dark"> SMART finance pro c'est quoi?</h1>
-        <h4>Investissement Long Terme Passif / Finance Personnelle / Compréhension du Monde Financier</h4>
-        <p>
-            Faire de l'argent, c'est bien. Mais le garder et le multiplier, c'est mieux. Smart Finance Pro est l'aboutissement de tout ce que j'ai appris, compris et expérimenté en bâtissant un portfolio de plusieurs millions d'euros et en ayant travaillé en finance institutionnelle. Ce programme est à l'heure d’aujourd’hui le plus gros projet de ma vie. 
-            Découvre un monde où ta fortune personnelle grandit en continu, un monde où tu construis une richesse générationnelle durable et stable tout en gérant ton lifestyle pour pouvoir profiter au maximum de ta fortune, sans jamais la compromettre.  
-            Lorsque j'ai créé Smart Finance Pro, je n'avais qu'un seul objectif en tête : permettre à n'importe qui d'avoir les mêmes informations et outils de développement de richesse que les plus grandes fortunes de notre monde. 
-        </p>
-        <img class="d-flex justify-content-center " style="width:60%"  src="https://static.wixstatic.com/media/faa724_bcb356db2fc5469d9a74921e75a12b36~mv2.png/v1/crop/x_352,y_129,w_1357,h_771/fill/w_764,h_434,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/4.png"/>
-            
-    </div>
-</div>
 
 <div style="background-color:#242323 " class="text-center " >
-    <div class="container "  style="padding:90px ">
-    <h1 > 
-        Le curriculum du programme
-    </h1>
-    
+    <div class="container"  >
+        <h1 > 
+            Le curriculum du programme
+        </h1>
         <h4>Investissement Long Terme Passif / Finance Personnelle / Compréhension du Monde Financier</h4>
-{{-- start --}}
-<div class="row text-center py-5">
-
-    <div class="col">
-        <img src="https://static.wixstatic.com/media/faa724_92edcf717caf454ba3cc0e0a42920754~mv2.jpg/v1/crop/x_0,y_18,w_1280,h_684/fill/w_434,h_231,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/17.jpg" alt="">
-    </div>
-        <div class="col">
-            <h5>MODULE 1:  REPROGRAMMER SA RELATION À L'ARGENT</h5>
-            <p class="text-white">
-                1. Ton Empreinte Financière (8min)
-                2. Polarisation à l'Argent (12min)
-                3. Valorisation et Importance de l'Argent (9min)
-                4. Ton Entourage (12min)
-                5. Les Habitudes (16min)
-                6. La Méritocratie (13min)
-                7. Une Commodité Limitée dans l'Infini (13min)
-            </p>
-    </div>
-</div>
-<div class="row  py-5">
-
-    <div class="col">
-        <img src="https://static.wixstatic.com/media/faa724_08fce83571bd4a95b506e240d741de33~mv2.jpg/v1/crop/x_0,y_18,w_1280,h_684/fill/w_434,h_231,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/18.jpg" alt="">
-    </div>
-        <div class="col">
-            <h5>MODULE 1:  REPROGRAMMER SA RELATION À L'ARGENT</h5>
-            <p class="text-white">
-                1. Ton Empreinte Financière (8min)
-                2. Polarisation à l'Argent (12min)
-                3. Valorisation et Importance de l'Argent (9min)
-                4. Ton Entourage (12min)
-                5. Les Habitudes (16min)
-                6. La Méritocratie (13min)
-                7. Une Commodité Limitée dans l'Infini (13min)
-            </p>
-    </div>
-    </div>
-    <div class="row py-5">
-
-        <div class="col">
-            <img src="https://static.wixstatic.com/media/faa724_a044cf53e9f040b2b5885a6a4f4f4e46~mv2.jpg/v1/crop/x_0,y_18,w_1280,h_684/fill/w_434,h_231,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/22.jpg" alt="">
-        </div>
+        {{-- start --}}
+        <div class="row text-center my-3">
+            <div class="col-lg-6">
+                <img style="height:100% ;  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)" class="rounded " src="{{ asset('frontend/css/1.png')}}" alt="">
+            </div>
             <div class="col">
-                <h5>MODULE 1:  REPROGRAMMER SA RELATION À L'ARGENT</h5>
+                <h5>MODULE 1: Comprendre et gérer les comptes de trading</h5>
                 <p class="text-white">
-                    1. Ton Empreinte Financière (8min)
-                    2. Polarisation à l'Argent (12min)
-                    3. Valorisation et Importance de l'Argent (9min)
-                    4. Ton Entourage (12min)
-                    5. Les Habitudes (16min)
-                    6. La Méritocratie (13min)
-                    7. Une Commodité Limitée dans l'Infini (13min)
+                    •	Processus d'ouverture et de gestion des comptes
+                    <br>
+                    •	Utiliser l'analyse fondamentale
+                    <br>
+                    •	Calculateur de positionnement pour déterminer les tailles de position
+                    <br>
+                    •	Suivi des performances dans le trading
+                    <br>
+
+                    •	Conseils et expériences personnelles dans la finance
+                    <br>
+                    •	Gestion de la psychologie durant les périodes de pertes
+                    
                 </p>
+            </div>
+        </div>
+        <div class="row my-3">
+                <div class="col-lg-6">
+                    <img  style="width: 100%  ;height:100%" src="https://image.lexica.art/full_jpg/f2a19d22-674f-4dcc-8260-e21dfffe97c5" alt="">
+                </div>
+                <div class="col">
+                        <h5>Module 2 : Analyse approfondie du marché et outils de trading</h5>
+                        <p class="text-white">
+                            •	Compréhension approfondie du marché
+                            <br>
+                            •	Analyse approfondie de l'analyse technique et fondamentale
+                            <br>
+
+                            •	Les plateformes et logiciels préférés des traders professionnels
+                            <br>
+
+                            •	Mon plan de trading personnel et mes critères d'entrée
+                            <br>
+
+                            •	Outils et fiches Excel personnelles à télécharger et utiliser
+                            
+                        </p>
+                </div>
         </div>
 
+        <div class="row my-3">
+
+            <div class="col-lg-6">
+                <img style="width: 100%  ;height:100%" src="https://image.lexica.art/full_jpg/01a6f259-ac3d-4795-b801-3ec53e279273" alt="">
+            </div>
+                <div class="col">
+                    <h5>Module 3 : Optimisation et suivi à vie</h5>
+                    <p class="text-white">
+                        •	Optimisation de la gestion des trades malgré un manque de temps disponible
+                    <br>
+
+                        •	Un suivi à vie par le groupe membre de traders privé
+                    <br>
+
+                        •	Outils et fiches Excel personnelles à télécharger et utiliser
+                        
+                    </p>
+            </div>
+
+        </div>
+
+        <div class="row my-3">
+
+            <div class="col-lg-6">
+                <img style="width: 100%  ;height:100%" src="https://image.lexica.art/full_jpg/f7384334-ea72-4fef-915d-c8ed61893b2d" alt="">
+            </div>
+                <div class="col">
+                    <h5>Module 3 : Optimisation et suivi à vie</h5>
+                    <p class="text-white">
+                        •	Optimisation de la gestion des trades malgré un manque de temps disponible
+                    <br>
+
+                        •	Un suivi à vie par le groupe membre de traders privé
+                    <br>
+
+                        •	Outils et fiches Excel personnelles à télécharger et utiliser
+                        
+                    </p>
+            </div>
+
+        </div>
+
+        <form action="{{url('/service')}}" method="get">
+            @csrf
+            <button class="btn btn-info my-3" >preinscription >></button>
+        </form>
+    
     </div>
-    <form action="{{url('/service')}}" method="get">
-        @csrf
-        <button class="btn btn-info " >preinscription >></button>
-    </form>
-  
-</div>
 
 
 @endsection
