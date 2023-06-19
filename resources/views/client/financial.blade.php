@@ -177,7 +177,43 @@ financial
             <button class="btn btn-info my-3" >preinscription >></button>
         </form>
     
-    </div>
+</div>
 
+<div class="container"  >
+    <div class="d-flex justify-content-center " >
+        <img src="{{ asset('frontend/css/mar.jpeg')}}"/>
+    </div>
+</div>
+{{-- les avantages --}}
+<div class="financial  ">
+
+    <div class="container">
+        <h1>avantages</h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <h6 style="color: #F2CB05">Un soutien complet pour atteindre rapidement vos objectifs de trading et transformer votre vie</h6>
+                <p style="color: #eceff0">
+                    formateur dédié, échanges directs, communauté solidaire. Changez votre vie en atteignant rapidement vos objectifs grâce à un soutien complet et une opportunité de réseautage précieuse.
+                </p>
+            </div>
+            <div class="col">
+                <img style="height: 60% ;width:60%" src="{{ asset('frontend/css/avantage2.jpeg')}}"/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <h2 style="color: #F2CB05">Un soutien complet pour atteindre rapidement vos objectifs de trading et transformer votre vie</h2>
+                <p style="color: #eceff0">
+                    Nous serons là pour vous aider tout au long de votre parcours 
+                    afin que vous puissiez atteindre vos objectifs le plus rapidement possible. Vous aurez un formateur qui vous accompagnera et avec qui vous pourrez communiquer directement par message. En plus de cela, vous pourrez rejoindre une communauté de traders qui sont unis et solidaires. Vous pourrez partager vos expériences avec eux,
+                    poser vos questions et créer un réseau qui pourrait vraiment changer votre vie
+                </p>
+            </div>
+            <div class="col">
+                <img style="height: 60% ;width:60%" src="{{ asset('frontend/css/avantage2.jpeg')}}"/>
+            </div>
+        </div>
+    </div>
+</div>
 
 @endsection

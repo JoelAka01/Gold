@@ -60,7 +60,7 @@ home
 
 <div class="container"  >
     <div class="d-flex justify-content-center " >
-        %
+        <img src="{{ asset('frontend/css/mar.jpeg')}}"/>
     </div>
 </div>
 
@@ -125,7 +125,7 @@ home
 </div>
 <div class="container"  >
     <div class="d-flex justify-content-center " >
-        %
+        <img sr="" alt=""/>
     </div>
 </div>
 
