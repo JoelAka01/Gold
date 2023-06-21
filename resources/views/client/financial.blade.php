@@ -108,7 +108,7 @@ financial
         </div>
         <div class="row my-3">
                 <div class="col-lg-6">
-                    <img  style="width: 100%  ;height:100%" src="https://image.lexica.art/full_jpg/f2a19d22-674f-4dcc-8260-e21dfffe97c5" alt="">
+                    <img style="height:100% ;  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)" class="rounded " src="{{ asset('frontend/css/1.png')}}" alt="">
                 </div>
                 <div class="col">
                         <h5>Module 2 : Analyse approfondie du marché et outils de trading</h5>
@@ -133,7 +133,7 @@ financial
         <div class="row my-3">
 
             <div class="col-lg-6">
-                <img style="width: 100%  ;height:100%" src="https://image.lexica.art/full_jpg/01a6f259-ac3d-4795-b801-3ec53e279273" alt="">
+                <img style="height:100% ;  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)" class="rounded " src="{{ asset('frontend/css/1.png')}}" alt="">
             </div>
                 <div class="col">
                     <h5>Module 3 : Optimisation et suivi à vie</h5>
@@ -154,7 +154,7 @@ financial
         <div class="row my-3">
 
             <div class="col-lg-6">
-                <img style="width: 100%  ;height:100%" src="https://image.lexica.art/full_jpg/f7384334-ea72-4fef-915d-c8ed61893b2d" alt="">
+                <img style="height:100% ;  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)" class="rounded " src="{{ asset('frontend/css/1.png')}}" alt="">
             </div>
                 <div class="col">
                     <h5>Module 3 : Optimisation et suivi à vie</h5>
