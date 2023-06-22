@@ -1,10 +1,10 @@
 
-<footer class="py-5 bg-dark text-white" style="  
+<footer class="py-5 text-white" style="  
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
-  color: white;
+  background-color:#D9D9D9 ;
+  color: #1d1c1c;
   text-align: center;">
   <div class="container">
       <div class="row ">
@@ -33,9 +33,9 @@
   
               </ul>
           </div>
-        <p>
-            Copyright &copy; 2023
-        </p>
+        <h2>
+          design by <span style="color:#F2CB05"> Joel Aka</span>  Copyright &copy; 2023
+        </h2>
       </div>
   </div>
 </footer>

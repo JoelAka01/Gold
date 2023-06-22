@@ -8,7 +8,7 @@
     <link 
     rel="Shortcut Icon"
     type="image/png"
-    href="https://static.wixstatic.com/media/faa724_f96390b9af4541cb825a7a965c8089df~mv2.png/v1/crop/x_12,y_0,w_324,h_287/fill/w_156,h_138,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Screenshot_2020-09-04_at_09_21_edited_pn.png"
+    href="{{ asset('frontend/css/logo.svg')}}"
     >
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +17,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,200;1,300;1,600;1,900&display=swap" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
