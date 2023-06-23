@@ -1,32 +1,23 @@
+
 .service {
     background:  url("https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28312.jpg?w=1800&t=st=1686857794~exp=1686858394~hmac=471075578a2f9b8e8fb1045bef9b0bbb33ab12f1abb805d0f463f87dfa3c268f");
     background-size: cover;
     color:white ;
 }
-.session3{
-    background:  url("https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28312.jpg?w=1800&t=st=1686857794~exp=1686858394~hmac=471075578a2f9b8e8fb1045bef9b0bbb33ab12f1abb805d0f463f87dfa3c268f");
+.home {
+    background:  url("https://static.wixstatic.com/media/faa724_3d6499f4ae154c08b72e1e96f2d1b133~mv2.jpg/v1/fill/w_1903,h_821,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/faa724_3d6499f4ae154c08b72e1e96f2d1b133~mv2.jpg");
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 117px;
-    flex-shrink: 0;
+    color:white ;
 }
-.financial {
-    background:  url("https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28312.jpg?w=1800&t=st=1686857794~exp=1686858394~hmac=471075578a2f9b8e8fb1045bef9b0bbb33ab12f1abb805d0f463f87dfa3c268f");
-    background-size: cover;
-    color:black ;
-    display: flex;
-    align-items: center;
-    text-align: center;
-}
-/* Session */
-.session4{
+
+                           /* FINANCIAL PAGE */
+/* avantages */
+.avantages{
     background-color:#252522 ;
 padding: 26px 0px;
 gap: 20px;
 }
-.session4 h1{
+.avantages h1{
     color: #F2CB05;
     text-align: center;
     font-size: 32px;
@@ -35,36 +26,119 @@ gap: 20px;
     line-height: 100%;
 padding: 26px;
 }
-
-
-/* card */
 .card{
     width: 361px;
     border-radius: 8px;
-    background: #D9D9D9;}
-.financial p{
-    color: #FFF;
-font-size: 16px;
-font-family: Montserrat;
-
+    background: #D9D9D9;
 }
 
-
-.home {
-    background:  url("https://static.wixstatic.com/media/faa724_3d6499f4ae154c08b72e1e96f2d1b133~mv2.jpg/v1/fill/w_1903,h_821,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/faa724_3d6499f4ae154c08b72e1e96f2d1b133~mv2.jpg");
-    background-size: cover;
-    color:white ;
+/* FAQ SESSION */
+.faq{
+    background: #252522;
+    align-items: center;
+    gap: 59px;
+    padding: 20px 0px 20px;
 }
-
-p{
-    color: #000;
+.faq h1{
+    color: #F2CB05;
+    text-align: center;
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 100%;
+padding: 26px;
+}
+.faq h4{
+    color: #F2CB05;
     text-align: center;
     font-size: 20px;
-    font-family: Open Sans;
+    font-family: Montserrat;
+    font-weight: 700;
     line-height: 100%;
+}
+.faq p{
+    color: #D9D9D9;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 100%;
+}
+/* ABOUT SESSION */
+
+.about{
+    display: inline-flex;
+    align-items: center;
+    gap: 94px;
+}
+/* PRIX SESSION */
+
+.prix{
+    background-color:#D9D9D9 ;
+    color:black ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 44px;
+    flex-shrink: 0;
+    padding: 20px 0px 20px;
+
+}
+.prix h1{
+    color: #000;
+    text-align: center;
+    font-size: 32px;
+    font-family: Montserrat;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 2.4px;
+}
+/* OUTLIS SESSION */
+
+.outils{
+    background:  url("https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28312.jpg?w=1800&t=st=1686857794~exp=1686858394~hmac=471075578a2f9b8e8fb1045bef9b0bbb33ab12f1abb805d0f463f87dfa3c268f");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 117px;
+    flex-shrink: 0;
+    background: #252522;
 
 }
 
+/* FINANCIAL SESSION */
+
+.financial {
+    background:  url("https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28312.jpg?w=1800&t=st=1686857794~exp=1686858394~hmac=471075578a2f9b8e8fb1045bef9b0bbb33ab12f1abb805d0f463f87dfa3c268f");
+    background-size: cover;
+    color:black ;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 44px 14px 14px 14px;
+    background: #252522;
+
+}
+.financial img{
+    border-radius: 30px;
+}
+
+.financial p{
+        color: #FFF;
+    font-size: 16px;
+    font-family: Montserrat;
+
+}
+
+            /* TYPOGRAPHIE  */
+h1{
+    color:#D9D9D9 ;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 100%;
+}
 h2{
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
@@ -82,7 +156,7 @@ h3{
 h4{
     color: #000;
     text-align: center;
-    font-size: 32px;
+    font-size: 20px;
     font-family: Montserrat;
     font-weight: 700;
     line-height: 100%;
@@ -94,61 +168,44 @@ h5{
     padding: 10px;  
     font-size: 17px;
 }
-h1{
-    color:#D9D9D9 ;
+p{
+    color: #000;
     text-align: center;
-    font-family: Montserrat;
-    font-weight: 700;
-    line-height: 100%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+        line-height: 100%;
+
+}
+ul{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+        line-height: 100%;    
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
+ /* BUTTON */
+.btn {
+    background-color: #F2CB05;
+    color: #000;
+text-align: center;
+font-size: 32px;
+font-family: Montserrat;
+line-height: 100%;
+letter-spacing: -0.48px;
 }
+
+            /* NAVBAR */
+
 .navbar {
-
+    background-color: #D9D9D9;
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
 }
-.session2{
-display: inline-flex;
-align-items: center;
-gap: 94px;
-}
-/* Style the navbar links */
 .navbar a {
-float: left;
-display: block;
-color: rgb(0, 0, 0);
-text-align: center;
-height: 30px;
-text-decoration: none;
-}
-.navbar  {
-background-color: #D9D9D9;
-    }
-#myVideoContainer {
-    position: relative;
-    height: 500px;
-}
-
-#myVideo {
-    width: 100%;
-    height: 100%;
-}
-
-.video-controls {
-    position: absolute;
-    bottom:10% ;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1;
-}
-
-.video-controls button {
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    color: #fff;
-    font-size: 24px;
-    margin-right: 10px;
+    float: left;
+    display: block;
+    color: rgb(17, 17, 17);
+    text-align: center;
+    height: 30px;
+    text-decoration: none;
 }
