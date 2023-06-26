@@ -31,8 +31,9 @@
 
 
 <body class="antialiased">
+    @include('client_layout.header')
+
     <main>
-        @include('client_layout.header')
         {{-- Commencement du contenu  --}}
         @yield('content')
         {{-- fin  du contenu  --}}

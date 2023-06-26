@@ -9,7 +9,6 @@ financial
 <div class="financial  ">
     <div class="container-fluid">
         <div class="row ">
-            
             <div class="col-lg-6">
                 <h1>
                     <span style="color:#F2CB05">GOLD</span>
@@ -17,7 +16,7 @@ financial
                 </h1>
                 <p>Le secret du succès financier !</p>
                 
-                <h3 style="color:#89856E" >
+                <h3 style="color:#F2CB05" >
                     Si vous pouvez obtenir des autres qu’ils creusent eux-mêmes leur propre tombe, Pourquoi vous fatiguer ?
                 </h3>
                 <p style="color: #eceff0">
@@ -25,11 +24,11 @@ financial
                 </p>     
             </div>
             <div class="col">
-                <img style=" height:90% ;width:90%" src="{{ asset('frontend/css/images/graph2.jpg')}}"/>
+                <img style=" height:90% ;width:50%" src="{{ asset('frontend/css/images/graph2.jpg')}}"/>
             </div>
             <form action="{{url('/service')}}" method="get">
                 @csrf
-                <button  class="btn    " >RESERVATION </button>
+                <button  class="btn " >RESERVATION </button>
             </form>
         </div>
     </div>
@@ -37,10 +36,10 @@ financial
 {{-- ABOUT --}}
 
 <div class="about">
-    <div class="container-fluid">
-        <div class="row">
+    <div class="container">
+        <div class="row ">
             <div class="col-lg-6">
-            {{-- <img style="height:328px ;width:90%" src="{{ asset('frontend/css/images/devise.png')}}"/> --}}
+                 <img style="height:100% ;width:75%" src="{{ asset('frontend/css/images/A1.png')}}"/>
             </div>
             <div class="col">
                 <h4>CONNAISSEZ-VOUS LE SECRET DE LA RÉUSSITE DU VAUTOUR QUI OBTIENT TOUJOURS LA MEILLEURE PART ?</h4>
@@ -65,18 +64,18 @@ financial
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="d-flex justify-content-center align-items-center">
-                                <img style="height:130px" class="my-2" width="280px" src="{{ asset('frontend/css/images/graph.png')}}"/>
+                                <img  src="{{ asset('frontend/css/images/graph.png')}}"/>
                             </div>
                             <div class="d-flex justify-content-center align-items-center">
-                                <img style="height:130px" class="my-2" width="280px" src="{{ asset('frontend/css/images/graph.png')}}"/>
+                                <img  src="{{ asset('frontend/css/images/graph2.png')}}"/>
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="d-flex justify-content-center align-items-center">
-                                <img style="height:130px" class="my-2" width="280px" src="{{ asset('frontend/css/images/graph.png')}}"/>
+                                <img  src="{{ asset('frontend/css/images/graph5.png')}}"/>
                             </div>
                             <div class="d-flex justify-content-center align-items-center">
-                                <img style="height:130px" class="my-2" width="280px" src="{{ asset('frontend/css/images/graph.png')}}"/>
+                                <img  src="{{ asset('frontend/css/images/graph6.png')}}"/>
                             </div>
                         </div>
                     </div>
@@ -252,11 +251,9 @@ financial
                     <div class="card "  >
                         <img  src="{{ asset('frontend/css/images/avantage2.jpeg')}}" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h3 class="card-title">UN SOUTIEN COMPLET POUR ATTEINDRE RAPIDEMENT VOS OBJECTIFS DE TRADING ET
-                            TRANSFORMER VOTRE VIE</h3>
-                        <p class="card-text">formateur dédié, échanges directs, communauté solidaire. Changez votre vie en atteignant rapidement vos
-                            objectifs grâce à un soutien complet et une opportunité de réseautage précieuse.
-                            </p>
+                        <h3 class="card-title">Premiers avantages</h3>
+                        <p class="card-text">
+                            Nous serons là pour vous aider tout au long de votre parcours afin que vous puissiez atteindre vos objectifs le plus rapidement possible. Vous aurez un formateur qui vous accompagnera et avec qui vous pourrez communiquer directement par message. En plus de cela, vous pourrez rejoindre une communauté de traders qui sont unis et solidaires. Vous pourrez partager vos expériences avec eux, poser vos questions et créer un réseau qui pourrait vraiment changer votre vie                        </p>
                         </div>
                     </div>
                 </div>
@@ -266,11 +263,10 @@ financial
                     <div class="card "  >
                         <img  src="{{ asset('frontend/css/images/avantage2.jpeg')}}" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h3 class="card-title">UN SOUTIEN COMPLET POUR ATTEINDRE RAPIDEMENT VOS OBJECTIFS DE TRADING ET
-                            TRANSFORMER VOTRE VIE</h3>
-                        <p class="card-text">formateur dédié, échanges directs, communauté solidaire. Changez votre vie en atteignant rapidement vos
-                            objectifs grâce à un soutien complet et une opportunité de réseautage précieuse.
-                            </p>
+                        <h3 class="card-title">Deuxième avantages</h3>
+                        <p class="card-text">
+                            Cette formation te permettra de transformer ta perspective. Tu développeras une vision distinctive, qui se distingue des traders particuliers, en adoptant des principes qui vont à l'encontre de l'effet de conformité sociale.
+                        </p>
                         </div>
                     </div>
                 </div>
@@ -280,11 +276,10 @@ financial
                     <div class="card "  >
                         <img  src="{{ asset('frontend/css/images/avantage2.jpeg')}}" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h3 class="card-title">UN SOUTIEN COMPLET POUR ATTEINDRE RAPIDEMENT VOS OBJECTIFS DE TRADING ET
-                            TRANSFORMER VOTRE VIE</h3>
-                        <p class="card-text">formateur dédié, échanges directs, communauté solidaire. Changez votre vie en atteignant rapidement vos
-                            objectifs grâce à un soutien complet et une opportunité de réseautage précieuse.
-                            </p>
+                        <h3 class="card-title">Troisième Avantage</h3>
+                        <p class="card-text">
+                            Cette formation ne se limite pas à des vidéos de cours. Tu auras également la possibilité de télécharger des outils et des systèmes puissants conçus spécifiquement pour la formation, afin de t'aider à atteindre un niveau professionnel.
+                        </p>
                         </div>
                     </div>
                 </div>
@@ -325,11 +320,12 @@ financial
                     Pour bénéficier de ce tarif, rejoignez la formation dès aujourd'hui</p>
             </div>
             {{-- button --}}
-            <form action="{{url('/service')}}" method="get">
-                @csrf
-                <button  class="btn   mx-5  " >RESERVATION </button>
-            </form>
-
+            <div class="text-center">
+                <form action="{{url('/service')}}" method="get">
+                    @csrf
+                    <button  class="btn   mx-5  " >RESERVATION </button>
+                </form>
+            </div>
         </div>
     </div>
 </div>
