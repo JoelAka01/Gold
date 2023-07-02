@@ -5,49 +5,123 @@ SERVICE
 
 @section('content')
 
-<div class="service text-center text-white">
-    <div class="container">
+<div class="datanalyse text-center text-white">
     <div class="row align-items-center" style="height: 616px;">
         <div class="col">
-        <h1 class="display-1">
-           <span style="color:#F2CB05">GOLDSTREET</span>
-            
-            DATANALYSE 
-
+        <h1 >
+            GOLDSTREET
+           <span style="color:#D9D9D9">DATANALYSE </span>
         </h1>
         <p style="font-size:17px">
             PROPULSE TES RÉSULTATS EN TRADING FOREX AVEC DES INFOS, DATAS ET RECHERCHES PROFESSIONNELS JOURNALIÈRES
 
         </p>
-        <a href="#" style="background-color: #F2CB05" class="btn btn-outline-dark  px-4 py-2">
+        <a href="#" style="background-color: #B5DDDA" class="btn btn-outline-dark  px-4 py-2">
            REJOINDRE
         </a>
         </div>
     </div>
+</div>
+
+
+
+<div class="analyse"  >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 ">
+                    <h4>ANALYSE JOURNALIER SUR LES MATIERES PREMIERES</h4>
+                    <p>Découvrez les avantages inestimables de ma formation qui vous permettra d'exploiter au maximum les opportunités lucratives du marché des matières premières. 
+                        En vous appuyant sur mes analyses expertes, vous serez en mesure de prendre des décisions éclairées et d'optimiser vos investissements. Ne manquez pas cette occasion unique de booster 
+                        vos résultats et de réaliser des profits significatifs grâce à ma formation exceptionnelle.
+                    </p>
+            </div>
+            <div class="col">
+                    <h4>ANALYSE JOURNALIER SUR LES MATIERES PREMIERES</h4>
+                    <p>Découvrez les avantages inestimables de ma formation qui vous permettra d'exploiter au maximum les opportunités lucratives du marché des matières premières. 
+                        En vous appuyant sur mes analyses expertes, vous serez en mesure de prendre des décisions éclairées et d'optimiser vos investissements. Ne manquez pas cette occasion unique de booster 
+                        vos résultats et de réaliser des profits significatifs grâce à ma formation exceptionnelle.
+                    </p>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="idees">
+    <div class="container">
+        <h1 class="m-4">IDEES DE TRADES CHARTISTES:</h1>
+
+        <div class="row">
+    
+            <div class="col">
+                <div class="d-flex justify-content-center my-4  align-items-center">
+                    <img src="https://img.freepik.com/photos-gratuite/ecran-montrant-donnees-crise-financiere-cause-du-coronavirus_181624-59374.jpg?size=626&ext=jpg&ga=GA1.1.1667228577.1684525808&semt=sph" alt="">
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-center my-4  align-items-center">
+                    <img src="https://img.freepik.com/photos-gratuite/ecran-montrant-donnees-crise-financiere-cause-du-coronavirus_181624-59374.jpg?size=626&ext=jpg&ga=GA1.1.1667228577.1684525808&semt=sph" alt="">
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-center my-4  align-items-center">
+                    <img src="https://img.freepik.com/photos-gratuite/ecran-montrant-donnees-crise-financiere-cause-du-coronavirus_181624-59374.jpg?size=626&ext=jpg&ga=GA1.1.1667228577.1684525808&semt=sph" alt="">
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-center my-4  align-items-center">
+                    <img src="https://img.freepik.com/photos-gratuite/ecran-montrant-donnees-crise-financiere-cause-du-coronavirus_181624-59374.jpg?size=626&ext=jpg&ga=GA1.1.1667228577.1684525808&semt=sph" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-<div>
-    <img  src="{{ asset('frontend/css/Capture.JPG')}}" 
-    style="width:1903px ; height:100px"/>
-</div>
+<div class="fondamental">
 
-<div class="service" style="background-color:#333B3D ;height:630px" >
+    <div class="container">
+        <h4>RAPPORT FONDAMENTAL JOURNALIER</h4>
 
-    {{-- <div id="myVideoContainer">
-        <video id="myVideo" playsinline>
-            <source src="https://video.wixstatic.com/video/faa724_d7c6be0112bb47a79c5e2eabb53772a9/1080p/mp4/file.mp4" type="video/mp4">
-        </video>
-        <div class="video-controls">
-            <button id="play-pause-button"><i class="fas fa-play"></i></button>
-            <button id="mute-button"><i class="fas fa-volume-up"></i></button>
-            <button id="fullscreen-button"><i class="fas fa-expand"></i></button>
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center my-2 " >
+                    <div class="card "   >
+                        <img  src="https://img.freepik.com/vecteurs-libre/concept-marche-boursier-dessine-main-analystes_23-2149163670.jpg?w=1060&t=st=1687882345~exp=1687882945~hmac=bb4194068a10ea8dddcc8a2cf62081cac715dc40ee8435498e057e87d225e93f" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h3 class="card-title">Premiers avantage</h3>
+                        <p class="card-text">
+                            Selon les prévisions, une augmentation du taux d'intérêt est anticipée. Cependant, avant même cette annonce, on observe une rupture de résistance sur les obligations à long terme dans l'analyse quotidienne. Cela suggère que l'or est susceptible de connaître une baisse, car il est inversement corrélé aux taux d'intérêt.
+                            En résumé, les obligations à 2 ans réagissent plus rapidement aux changements des taux d'intérêt à court terme décidés par les banques centrales. Ces changements peuvent avoir un impact immédiat sur les rendements des obligations à court terme et influencer la demande pour l'or en tant qu'investissement alternatif.                          </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-center my-2 "  >
+                    <div class="card "  >
+                        <img  src="https://img.freepik.com/vecteurs-libre/concept-marche-boursier-dessine-main-analystes_23-2149163670.jpg?w=1060&t=st=1687882345~exp=1687882945~hmac=bb4194068a10ea8dddcc8a2cf62081cac715dc40ee8435498e057e87d225e93f" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h3 class="card-title">Deuxième avantage</h3>
+                        <p  class="card-text">
+                            Quelques jours avant l'annonce de la baisse du CPI, une tendance à la baisse du dollar se manifeste. 
+                            Le jour de l'annonce, on observe une augmentation soudaine du dollar, ce qui suggère que le marché avait déjà
+                             anticipé cette nouvelle et ajusté les prix en conséquence. Cette réaction rapide du marché démontre l'importance de suivre de près les annonces économiques et de comprendre leur impact potentiel sur les devises. En restant attentif à ces mouvements prédictifs, vous serez en mesure de prendre des décisions éclairées dans vos activités de trading ou d'investissement. En effet cela te permet d’avoir un aperçu globale du marché afin de pouvoir minimiser tes risque                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
-    </div> --}}
+    </div>
+</div>
+<div class="plans">
+    <div class="container">
+        <div class="row">
+            <img src="{{ asset('frontend/css/images/PLANS.png')}}"/>
+        </div>
+    </div>
 </div>
 
 
-<div style="background-color:#eceff0 " >
+{{-- <div style="background-color:#D9D9D9 " >
     <div class="container "  style="padding:90px ">
     <h1 class="text-center "> UN SERVICE UNIQUE EN FRANCE POUR LES TRADERS CONFIRMÉS </h1>
     <div class="row py-5">
@@ -77,47 +151,9 @@ SERVICE
     </div>
     <button type="button" class="btn btn-block btn-lg " style="background-color:  ; margin: auto; display: block;"> REJOINDRE </button>
     </div>
-</div>
+</div> --}}
 
 
-@endsection
-@section('script')
-<script>
-    var video = document.getElementById("myVideo");
-    var playPauseButton = document.getElementById("play-pause-button");
-    var muteButton = document.getElementById("mute-button");
-    var fullscreenButton = document.getElementById("fullscreen-button");
 
-    playPauseButton.addEventListener("click", function() {
-        if (video.paused || video.ended) {
-            video.play();
-            playPauseButton.innerHTML = '<i class="fas fa-pause"></i>';
-        } else {
-            video.pause();
-            playPauseButton.innerHTML = '<i class="fas fa-play"></i>';
-        }
-    });
 
-    muteButton.addEventListener("click", function() {
-        if (video.muted) {
-            video.muted = false;
-            muteButton.innerHTML = '<i class="fas fa-volume-up"></i>';
-        } else {
-            video.muted = true;
-            muteButton.innerHTML = '<i class="fas fa-volume-mute"></i>';
-        }
-    });
-
-    fullscreenButton.addEventListener("click", function() {
-        if (video.requestFullscreen) {
-            video.requestFullscreen();
-        } else if (video.mozRequestFullScreen) {
-            video.mozRequestFullScreen();
-        } else if (video.webkitRequestFullscreen) {
-            video.webkitRequestFullscreen();
-        } else if (video.msRequestFullscreen) {
-            video.msRequestFullscreen();
-        }
-    });
-</script>
 @endsection

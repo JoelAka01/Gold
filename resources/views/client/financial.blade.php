@@ -24,7 +24,7 @@ financial
                 </p>     
             </div>
             <div class="col">
-                <img style=" height:90% ;width:50%" src="{{ asset('frontend/css/images/graph2.jpg')}}"/>
+                <img style=" height:100% ;width:50%" src="{{ asset('frontend/css/images/desk1.png')}}"/>
             </div>
             <form action="{{url('/service')}}" method="get">
                 @csrf
@@ -52,30 +52,29 @@ financial
 {{-- OUTILS --}}
 
 <div class="outils">
-    <div class="py-2 ">
-        <div class="container "  >
-            <div class="row my-4">
-                <div class="col-lg-6">
-                    <div class="text-center align-middle">
-                        <h3>Outils <span style="color:#F2CB05">à utiliser</span></h3>
+        <div class="container-fluid "  >
+            <div class="row ">
+                <div class="col-lg-4  col-md-4">
+                    <div class="d-flex justify-content-center my-4  align-items-center">
+                        <h1><span style="color:#F2CB05">Outils </span> à utiliser</h1>
                     </div>
                 </div>
-                <div class="col">
-                    <div class="row">
+                <div class="col  ">
+                    <div class="row  ">
                         <div class="col-lg-6">
-                            <div class="d-flex justify-content-center align-items-center">
-                                <img  src="{{ asset('frontend/css/images/graph.png')}}"/>
+                            <div class="d-flex justify-content-center my-4  align-items-center">
+                                <img  src="{{ asset('frontend/css/images/graph1.png')}}"/>
                             </div>
                             <div class="d-flex justify-content-center align-items-center">
-                                <img  src="{{ asset('frontend/css/images/graph2.png')}}"/>
+                                <img  src="{{ asset('frontend/css/images/graph7.png')}}"/>
                             </div>
                         </div>
                         <div class="col-lg-6">
-                            <div class="d-flex justify-content-center align-items-center">
-                                <img  src="{{ asset('frontend/css/images/graph5.png')}}"/>
+                            <div class="d-flex justify-content-center my-4 align-items-center">
+                                <img  src="{{ asset('frontend/css/images/graph2.jpg')}}"/>
                             </div>
                             <div class="d-flex justify-content-center align-items-center">
-                                <img  src="{{ asset('frontend/css/images/graph6.png')}}"/>
+                                <img  src="{{ asset('frontend/css/images/graph3.png')}}"/>
                             </div>
                         </div>
                     </div>
@@ -83,7 +82,6 @@ financial
             </div>
             
         </div>
-    </div>
 </div>
 
 {{-- MODULES --}}
@@ -91,13 +89,13 @@ financial
 <div class="module">
     <div class="container">
         <h1 style="margin-bottom: 38px; color:black">LE CURRICULUM DU PROGRAMME</h1>
-        <div class="row module">
+        <div class="row ">
             <div class="col-lg-6">
                 <div class="d-flex justify-content-center align-items-center">
                     <img style=" height:90% ;width:90%" src="{{ asset('frontend/css/images/img.png')}}" />
                 </div>
             </div>
-            <div class="col">
+            <div class="col ">
                 <h4>MODULE 1: COMPRENDRE ET GÉRER
                     LES COMPTES DE TRADING
                 </h4>
@@ -129,13 +127,13 @@ financial
                 </ul>
             </div>
         </div>
-        <div class="row module">
+        <div class="row ">
             <div class="col-lg-6">
                 <div class="d-flex justify-content-center align-items-center">
                     <img style=" height:90% ;width:90%" src="{{ asset('frontend/css/images/img.png')}}" />
                 </div>
             </div>
-            <div class="col">
+            <div class="col ">
                 <h4>
                     Module 2 : Analyse approfondie du marché et outils de trading
                 </h4>
@@ -162,7 +160,7 @@ financial
                 </ul>
             </div>
         </div>
-        <div class="row module">
+        <div class="row ">
             <div class="col-lg-6">
                 <div class="d-flex justify-content-center align-items-center">
                     <img style=" height:90% ;width:90%" src="{{ asset('frontend/css/images/img.png')}}" />
@@ -187,9 +185,9 @@ financial
                 </ul>
             </div>
         </div>
-        <div class="row module">
+        <div class="row ">
             <div class="col-lg-6">
-                <div class="d-flex justify-content-center align-items-center">
+                <div class="d-flex my-5 justify-content-center align-items-center">
                     <img style=" height:90% ;width:90%" src="{{ asset('frontend/css/images/img.png')}}" />
                 </div>
             </div>
@@ -202,7 +200,7 @@ financial
                     </li>
 
                     <li>
-                        Être un vautour sur le march  
+                        Être un vautour sur le marché  
                     </li>
 
                     <li>
@@ -211,26 +209,17 @@ financial
                     <li>
                         L'effet inverse et comment se positionner
                     </li>                   
-                    <li>
-                        Effets saisonniers et cycles de marché
-                    </li>
-                    <li>
-                        La fin du mois et le début du mois
-                    </li>
+
                     <li>
                         La notion de "priced"
                     </li>
                     <li>
                         Techniques pour identifier la manipulation du marché
                     </li>
+
+
                     <li>
-                        Stratégies pour profiter de l'effet inverse
-                    </li>
-                    <li>
-                        Approches pour tirer parti des phénomènes temporels
-                    </li>
-                    <li>
-                        Gestion des risques associés à la        
+                        Gestion des risques associés à la manipulation du marchés
                     </li>
                 </ul>
             </div>
@@ -249,22 +238,21 @@ financial
             <div class="col">
                 <div class="d-flex justify-content-center my-2 " >
                     <div class="card "  >
-                        <img  src="{{ asset('frontend/css/images/avantage2.jpeg')}}" class="card-img-top" alt="...">
+                        <img  src="{{ asset('frontend/css/images/avantage2.png')}}" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h3 class="card-title">Premiers avantages</h3>
+                        <h3 class="card-title">Premiers avantage</h3>
                         <p class="card-text">
-                            Nous serons là pour vous aider tout au long de votre parcours afin que vous puissiez atteindre vos objectifs le plus rapidement possible. Vous aurez un formateur qui vous accompagnera et avec qui vous pourrez communiquer directement par message. En plus de cela, vous pourrez rejoindre une communauté de traders qui sont unis et solidaires. Vous pourrez partager vos expériences avec eux, poser vos questions et créer un réseau qui pourrait vraiment changer votre vie                        </p>
-                        </div>
+                            Nous vous aiderons à atteindre vos objectifs rapidement. Vous serez accompagné par un formateur dédié, avec qui vous pourrez communiquer directement. Rejoignez une communauté de traders unie et solidaire, partagez vos expériences, posez vos questions et créez un réseau qui changera votre vie.                        </div>
                     </div>
                 </div>
             </div>
             <div class="col">
-                <div class="d-flex justify-content-center my-2 " >
-                    <div class="card "  >
-                        <img  src="{{ asset('frontend/css/images/avantage2.jpeg')}}" class="card-img-top" alt="...">
+                <div class="d-flex justify-content-center my-2 "  >
+                    <div class="card "   >
+                        <img  src="https://img.freepik.com/vecteurs-libre/concept-marche-boursier-dessine-main-analystes_23-2149163670.jpg?w=1060&t=st=1687882345~exp=1687882945~hmac=bb4194068a10ea8dddcc8a2cf62081cac715dc40ee8435498e057e87d225e93f" class="card-img-top" alt="...">
                         <div class="card-body">
-                        <h3 class="card-title">Deuxième avantages</h3>
-                        <p class="card-text">
+                        <h3 class="card-title">Deuxième avantage</h3>
+                        <p  class="card-text">
                             Cette formation te permettra de transformer ta perspective. Tu développeras une vision distinctive, qui se distingue des traders particuliers, en adoptant des principes qui vont à l'encontre de l'effet de conformité sociale.
                         </p>
                         </div>
@@ -272,9 +260,9 @@ financial
                 </div>
             </div>
             <div class="col">
-                <div class="d-flex justify-content-center my-2 " >
+                <div class="d-flex justify-content-center my-2 " style="height: 520px" >
                     <div class="card "  >
-                        <img  src="{{ asset('frontend/css/images/avantage2.jpeg')}}" class="card-img-top" alt="...">
+                        <img  src="https://img.freepik.com/photos-gratuite/concept-entreprise-holographie-graphique_23-2149160929.jpg?w=996&t=st=1687882262~exp=1687882862~hmac=cd8c806711adb3da36b6b89022576b6a8b831e57ee0ebc8c5833aa92e04edd03" class="card-img-top" alt="...">
                         <div class="card-body">
                         <h3 class="card-title">Troisième Avantage</h3>
                         <p class="card-text">
@@ -291,7 +279,7 @@ financial
 {{-- PRIX --}}
 
 <div class="prix">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col">
                 <img src="{{ asset('frontend/css/images/logo.png')}}"   style="width:350px ;268px" alt="logo"/>
@@ -315,20 +303,20 @@ financial
             </div>
             <div class="col">
                 <img style="width:341px ; heigth:267px" src="{{ asset('frontend/css/images/B.png')}}"/>
-                <h1 >790$ >> 690$</h1>
+                <h1 style="font-size: 75px" >790$ >> 690$</h1>
                 <p>La note importante à prendre en compte est que le prix augmentera progressivement.
                     Pour bénéficier de ce tarif, rejoignez la formation dès aujourd'hui</p>
             </div>
-            {{-- button --}}
             <div class="text-center">
                 <form action="{{url('/service')}}" method="get">
                     @csrf
-                    <button  class="btn   mx-5  " >RESERVATION </button>
+                    <button  class="btn     " >INSCRIPTION </button>
                 </form>
             </div>
         </div>
     </div>
 </div>
+<img style="width: 100%" src="{{ asset('frontend/css/images/avantage3.jpeg')}}"/>
 
 {{-- FAQ --}}
 

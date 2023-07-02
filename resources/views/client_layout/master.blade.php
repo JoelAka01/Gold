@@ -8,7 +8,7 @@
     <link 
     rel="Shortcut Icon"
     type="image/png"
-    href="{{ asset('frontend/css/logo.svg')}}"
+    href="{{ asset('frontend/css/images/logo.png')}}"
     >
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
