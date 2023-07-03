@@ -248,9 +248,15 @@ line-height: 100%;
             /* NAVBAR */
 
 .navbar {
-    background-color: #F1F0EC;
+    background-color: #D9D9D9;
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+
+    width: 100%;
 }
+
 .navbar a {
     float: left;
     display: block;

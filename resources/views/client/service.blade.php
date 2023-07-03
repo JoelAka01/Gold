@@ -5,22 +5,25 @@ SERVICE
 
 @section('content')
 
-<div class="datanalyse text-center text-white">
-    <div class="row align-items-center" style="height: 616px;">
-        <div class="col">
-        <h1 >
-            GOLDSTREET
-           <span style="color:#D9D9D9">DATANALYSE </span>
-        </h1>
-        <p style="font-size:17px">
-            PROPULSE TES RÉSULTATS EN TRADING FOREX AVEC DES INFOS, DATAS ET RECHERCHES PROFESSIONNELS JOURNALIÈRES
-
-        </p>
-        <a href="#" style="background-color: #B5DDDA" class="btn btn-outline-dark  px-4 py-2">
-           REJOINDRE
-        </a>
+<div class="datanalyse p-0 text-center text-white">
+    <div class="container">
+        <div class="row align-items-center" style="height: 616px;">
+            <div class="col">
+                <h1 >
+                    GOLDSTREET
+                <span style="color:#D9D9D9">DATANALYSE </span>
+                </h1>
+                <p >
+                    PROPULSE TES RÉSULTATS EN TRADING FOREX AVEC DES INFOS, DATAS ET RECHERCHES PROFESSIONNELS JOURNALIÈRES
+    
+                </p>
+                <a href="#" style="background-color: #B5DDDA" class="btn btn-outline-dark  px-4 py-2">
+                REJOINDRE
+                </a>
+            </div>
         </div>
     </div>
+
 </div>
 
 
@@ -83,7 +86,7 @@ SERVICE
 
         <div class="row">
             <div class="col">
-                <div class="d-flex justify-content-center my-2 " >
+                <div class="d-flex justify-content-center my-4  align-items-center">
                     <div class="card "   >
                         <img  src="https://img.freepik.com/vecteurs-libre/concept-marche-boursier-dessine-main-analystes_23-2149163670.jpg?w=1060&t=st=1687882345~exp=1687882945~hmac=bb4194068a10ea8dddcc8a2cf62081cac715dc40ee8435498e057e87d225e93f" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -95,7 +98,7 @@ SERVICE
                 </div>
             </div>
             <div class="col">
-                <div class="d-flex justify-content-center my-2 "  >
+                <div class="d-flex justify-content-center my-4  align-items-center">
                     <div class="card "  >
                         <img  src="https://img.freepik.com/vecteurs-libre/concept-marche-boursier-dessine-main-analystes_23-2149163670.jpg?w=1060&t=st=1687882345~exp=1687882945~hmac=bb4194068a10ea8dddcc8a2cf62081cac715dc40ee8435498e057e87d225e93f" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -119,8 +122,28 @@ SERVICE
         </div>
     </div>
 </div>
+<div class="assistance">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="{{ asset('frontend/css/images/logo1.png')}}" style="width:567px ;height:469px" />
+                <ul style="color:#D9D9D9">
+                    <li>Suivi et assistance personnalisés pour maximiser vos résultats</li>
+                    <li>Accès à des outils et des indicateurs professionnels pour affiner vos analyses</li>
+                    <li>Stratégies d'investissement basées sur des modèles éprouvés</li>
+                    <li>Sans engagement, vous avez la liberté de choisir</li>
+                    <li>Analyses techniques avancées pour identifier les tendances du marché</li>
 
-
+                </ul>
+            </div>
+            <div class="col " style="margin-top: 200px">
+                <div class="d-flex justify-content-center align-items-center">
+                      <img src="{{ asset('frontend/css/images/desk1.png')}}"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {{-- <div style="background-color:#D9D9D9 " >
     <div class="container "  style="padding:90px ">
     <h1 class="text-center "> UN SERVICE UNIQUE EN FRANCE POUR LES TRADERS CONFIRMÉS </h1>
@@ -152,7 +175,10 @@ SERVICE
     <button type="button" class="btn btn-block btn-lg " style="background-color:  ; margin: auto; display: block;"> REJOINDRE </button>
     </div>
 </div> --}}
-
+<div class="question">
+    <div class="container">
+    </div>
+</div>
 
 
 
