@@ -11,12 +11,12 @@ financial
         <div class="row ">
             <div class="col-lg-6">
                 <h1>
-                    <span style="color:#F2CB05">GOLD</span>
+                    <span style="color:#EBE789">GOLD</span>
                     STREETFINANCIAL
                 </h1>
                 <p>Le secret du succès financier !</p>
                 
-                <h3 style="color:#F2CB05" >
+                <h3 style="color:#EBE789" >
                     Si vous pouvez obtenir des autres qu’ils creusent eux-mêmes leur propre tombe, Pourquoi vous fatiguer ?
                 </h3>
                 <p style="color: #eceff0">
@@ -56,7 +56,7 @@ financial
             <div class="row ">
                 <div class="col-lg-4  col-md-4">
                     <div class="d-flex justify-content-center my-4  align-items-center">
-                        <h1><span style="color:#F2CB05">Outils </span> à utiliser</h1>
+                        <h1><span style="color:#EBE789">Outils </span> à utiliser</h1>
                     </div>
                 </div>
                 <div class="col  ">

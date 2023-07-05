@@ -4,10 +4,10 @@ SERVICE
 @endsection
 
 @section('content')
-
-<div class="datanalyse p-0 text-center text-white">
+<div class="data">
+<div class="datanalyse p-0 text-center text-white vh-100" >
     <div class="container">
-        <div class="row align-items-center" style="height: 616px;">
+        <div class="row align-items-center" >
             <div class="col">
                 <h1 >
                     GOLDSTREET
@@ -27,9 +27,11 @@ SERVICE
 </div>
 
 
-
+{{-- ANNALYSE --}}
 <div class="analyse"  >
-    <div class="container">
+    <h3>RAPPORT FONDAMENTAL JOURNALIER</h3>
+
+    <div class="container ">
         <div class="row">
             <div class="col-lg-6 ">
                     <h4>ANALYSE JOURNALIER SUR LES MATIERES PREMIERES</h4>
@@ -49,10 +51,11 @@ SERVICE
         </div>
     </div>
 </div>
+{{-- IDEES DE TRADERS --}}
 <div class="idees">
-    <div class="container">
-        <h1 class="m-4">IDEES DE TRADES CHARTISTES:</h1>
+    <h3 >IDEES DE TRADES CHARTISTES:</h3>
 
+    <div class="container">
         <div class="row">
     
             <div class="col">
@@ -80,13 +83,11 @@ SERVICE
 </div>
 
 <div class="fondamental">
-
+    <h3>RAPPORT FONDAMENTAL JOURNALIER</h3>
     <div class="container">
-        <h4>RAPPORT FONDAMENTAL JOURNALIER</h4>
-
         <div class="row">
             <div class="col">
-                <div class="d-flex justify-content-center my-4  align-items-center">
+                <div class="d-flex justify-content-center  align-items-center">
                     <div class="card "   >
                         <img  src="https://img.freepik.com/vecteurs-libre/concept-marche-boursier-dessine-main-analystes_23-2149163670.jpg?w=1060&t=st=1687882345~exp=1687882945~hmac=bb4194068a10ea8dddcc8a2cf62081cac715dc40ee8435498e057e87d225e93f" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -98,7 +99,7 @@ SERVICE
                 </div>
             </div>
             <div class="col">
-                <div class="d-flex justify-content-center my-4  align-items-center">
+                <div class="d-flex justify-content-center   align-items-center">
                     <div class="card "  >
                         <img  src="https://img.freepik.com/vecteurs-libre/concept-marche-boursier-dessine-main-analystes_23-2149163670.jpg?w=1060&t=st=1687882345~exp=1687882945~hmac=bb4194068a10ea8dddcc8a2cf62081cac715dc40ee8435498e057e87d225e93f" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -126,7 +127,7 @@ SERVICE
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <img src="{{ asset('frontend/css/images/logo1.png')}}" style="width:567px ;height:469px" />
+                <img src="{{ asset('https://s3-alpha-sig.figma.com/img/c911/4621/4074feedd157fa2c5dd8464716aa4773?Expires=1689552000&Signature=pQC8Gf5ZkPySa4oLv9VlGkVtljf8PMoMe~NJH793Ea94ewvF~OLuGVHPOoor7CCQEH6O6zBx4Fai~QlGfV2nxF7mIPEKb5z3ki2BykmcSI9qARbs1lQw6GHrpxoIR9U~PdTdmLI4M~AMOtZthHaM1WVpYKYxKIwcUSFdtpe9zbfBconj8r3bZTw3wcTfzuSJfdqveFj-woj-Xl03bo3-tDCKXhTIEJitATidztGx8oXjgmxPXsyjsRMx5bZCM0Y9k5gOE41B0CWnbyVQE5AqnjevQCNEL3K7JJLA0aiyqOs8T3uwNkr7Q3FNqsQwEMLxr4d1EzBM2GZ4b-tL3F330w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4')}}" style="width:100% ;height:469px" />
                 <ul style="color:#D9D9D9">
                     <li>Suivi et assistance personnalisés pour maximiser vos résultats</li>
                     <li>Accès à des outils et des indicateurs professionnels pour affiner vos analyses</li>
@@ -138,7 +139,7 @@ SERVICE
             </div>
             <div class="col " style="margin-top: 200px">
                 <div class="d-flex justify-content-center align-items-center">
-                      <img src="{{ asset('frontend/css/images/desk1.png')}}"/>
+                      <img style="width:100%" src="{{ asset('frontend/css/images/desk1.png')}}"/>
                 </div>
             </div>
         </div>
@@ -177,6 +178,90 @@ SERVICE
 </div> --}}
 <div class="question">
     <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="d-flex justify-content-center  align-items-center">
+                    <div class="card2 "   >
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img  style="width:178px ; height:178px" src="{{ asset('frontend/css/images/icone.png')}}" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                approfondie des marchés financiers et des stratégies de trading efficaces. 
+                                Grâce à cela, j'ai pu améliorer mes résultats de trading et réaliser des profits plus significatifs. 
+                                Je recommande vivement cette formation à tous ceux qui souhaitent développer leurs compétences en trading." - Anne
+                            </p>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button type="button" style="color:#FFF" class="btn btn-block  " > Savoir plus </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-center  align-items-center">
+                    <div class="card2 "   >
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img  style="width:178px ; height:178px" src="{{ asset('frontend/css/images/icone.png')}}" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                approfondie des marchés financiers et des stratégies de trading efficaces. 
+                                Grâce à cela, j'ai pu améliorer mes résultats de trading et réaliser des profits plus significatifs. 
+                                Je recommande vivement cette formation à tous ceux qui souhaitent développer leurs compétences en trading." - Anne
+                            </p>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button type="button" style="color:#FFF" class="btn btn-block  " >Savoir plus </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="d-flex justify-content-center  align-items-center">
+                    <div class="card2 "   >
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img  style="width:178px ; height:178px" src="{{ asset('frontend/css/images/icone.png')}}" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                approfondie des marchés financiers et des stratégies de trading efficaces. 
+                                Grâce à cela, j'ai pu améliorer mes résultats de trading et réaliser des profits plus significatifs. 
+                                Je recommande vivement cette formation à tous ceux qui souhaitent développer leurs compétences en trading." - Anne
+                            </p>
+                            <div class="d-flex justify-content-center align-items-center">
+                                <button type="button" style="border-radius: 68px;
+                                background: #B5DDDA;padding: 15px 9px;color:#FFF" class="btn btn-block  " >Savoir plus </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2>question</h2>
+        <div class="row">
+            <h4>
+                Ce système est-il un signaux e trading ?
+            </h4>
+            <p>
+                Ce service n'est pas recommandé pour les débutants car il nécessite une certaine connaissance préalable du trading. Les analyses complexes et les positions prises peuvent être difficiles à comprendre pour les novices. Il est plutôt conçu pour les personnes ayant déjà des connaissances en trading, leur permettant ainsi d'approfondir leurs compétences d'analyse et de prendre des décisions plus éclairées.
+            </p>
+            <h4>
+                Y a-t-il une période d'essai ou une garantie de satisfaction offerte ?            </h4>
+            <p>
+                Ce service n'est pas recommandé pour les débutants car il nécessite une certaine connaissance préalable du trading. Les analyses complexes et les positions prises peuvent être difficiles à comprendre pour les novices. Il est plutôt conçu pour les personnes ayant déjà des connaissances en trading, leur permettant ainsi d'approfondir leurs compétences d'analyse et de prendre des décisions plus éclairées.            </p>
+            <h4>
+                Quelle est la méthode de livraison des signaux de trading (par e-mail, SMS, application mobile, etc.) ?            </h4>
+            <p>
+                Ce service n'est pas recommandé pour les débutants car il nécessite une certaine connaissance préalable du trading. Les analyses complexes et les positions prises peuvent être difficiles à comprendre pour les novices. Il est plutôt conçu pour les personnes ayant déjà des connaissances en trading, leur permettant ainsi d'approfondir leurs compétences d'analyse et de prendre des décisions plus éclairées.
+            </p>
+            <h4>
+                À quelle heure les recherches seront-elles disponibles pour moi
+            </h4>
+            <p>
+                Ce service n'est pas recommandé pour les débutants car il nécessite une certaine connaissance préalable du trading. Les analyses complexes et les positions prises peuvent être difficiles à comprendre pour les novices. Il est plutôt conçu pour les personnes ayant déjà des connaissances en trading, leur permettant ainsi d'approfondir leurs compétences d'analyse et de prendre des décisions plus éclairées.
+            </p>
+        </div>
     </div>
 </div>
 
