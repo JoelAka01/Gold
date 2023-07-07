@@ -8,10 +8,7 @@ h2{
     font-family: 'Montserrat', sans-serif;
     padding: 10px;
 }
-h3{
-    font-size: 15px;
-    font-family: Montserrat;
-}
+
 
 h5{
     font-family: 'Montserrat', sans-serif;
@@ -62,9 +59,6 @@ border-radius: 68px;
                            /* FINANCIAL PAGE */
 /* avantages */
 .avantages{
-background:  url("https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28312.jpg?w=1380&t=st=1687687034~exp=1687687634~hmac=270f78f8b1f613e450b08ad209a1ece7b14830b23fec435184736d381899f2d4");
-background-size: cover;
-background-attachment: fixed;
 padding: 26px 0px;
 gap: 20px;
 
@@ -101,7 +95,7 @@ padding: 26px;
 
 /* FAQ SESSION */
 .faq{
-    background:  url("https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28312.jpg?w=1380&t=st=1687687034~exp=1687687634~hmac=270f78f8b1f613e450b08ad209a1ece7b14830b23fec435184736d381899f2d4");
+    background: #1A2121;
     background-size: cover;
     background-attachment: fixed;
     
@@ -143,14 +137,43 @@ padding: 26px;
     align-items: center;
     gap: 117px;
     flex-shrink: 0;
-    background-color:#F1F0EC ;
+    background: #1A2121;
+    padding: 95px 0px;
 
+}
+.about h3{
+
+    padding: 25px 0px;
+    color: #9DA0A0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;   
+}
+.about h4{
+
+    color: #9DA0A0;
+    font-family:Montserrat ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+.about p{
+
+    color: #9DA0A0;
+    font-family:Montserrat ;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
 }
 /* PRIX SESSION */
 
 .prix{
-    background-color:#F1F0EC ;
-    color:black ;
+    background:  url("https://s3-alpha-sig.figma.com/img/e2da/35cb/ee9e3466138bdfa08b0345fa920252e2?Expires=1689552000&Signature=eGGIpstOYUuKVpuYJ6Xhh0xyFmtXG8ZSV4P~QDnyCYY0oL-n3NMqBInG-ncaDcvK~rCRyOsVurdq4wWpgQE~2XZdmp9L-YRGZ~CDrQC34Rw6fm5uSlfHssn3PP3lSSGu2xEd2nPxYWnr5vQz803ynsXz8fFbcm9bO3qA3vbC2Ae7sv1DPdHxHt4MFcqTeGf877aCxJJFfK7oHs1M~HQS2rplBnRhBVRTikHZhZBY80BU1T7VubbiFXUK~t2XM9gvKmnQcVbZLXuLQ3FXG14pdwkss5YUN9i7GHEpJSw90e98Vto62pYvCSbIFVuVWMLGC5jQzbTdwzt1i8rwqttAlQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+    background-size: cover;
+    background-attachment: fixed;    color:black ;
     display: flex;
     align-items: center;
     gap: 44px;
@@ -182,7 +205,7 @@ line-height: 100%;
 /* OUTLIS SESSION */
 
 .outils{
-    background:  url("https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28312.jpg?w=1380&t=st=1687687034~exp=1687687634~hmac=270f78f8b1f613e450b08ad209a1ece7b14830b23fec435184736d381899f2d4");
+    background: #1A2121;
     background-size: cover;
     background-attachment: fixed;
     display: flex;
@@ -192,9 +215,13 @@ line-height: 100%;
     padding: 20px 0px 20px 0px;
 
 }
-.outils h3{
-    color: #F1F0EC;
-    display: flex;
+.outils h1{
+    color: #EBE789;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
 
 }
 .outils img{
@@ -205,7 +232,7 @@ line-height: 100%;
 /* FINANCIAL SESSION */
 
 .financial {
-    background:  url("https://img.freepik.com/photos-gratuite/vieux-fond-noir-texture-grunge-fond-ecran-sombre-tableau-noir-tableau-noir-mur-salle_1258-28312.jpg?w=1380&t=st=1687687034~exp=1687687634~hmac=270f78f8b1f613e450b08ad209a1ece7b14830b23fec435184736d381899f2d4");
+    background:  url("https://s3-alpha-sig.figma.com/img/e2da/35cb/ee9e3466138bdfa08b0345fa920252e2?Expires=1689552000&Signature=eGGIpstOYUuKVpuYJ6Xhh0xyFmtXG8ZSV4P~QDnyCYY0oL-n3NMqBInG-ncaDcvK~rCRyOsVurdq4wWpgQE~2XZdmp9L-YRGZ~CDrQC34Rw6fm5uSlfHssn3PP3lSSGu2xEd2nPxYWnr5vQz803ynsXz8fFbcm9bO3qA3vbC2Ae7sv1DPdHxHt4MFcqTeGf877aCxJJFfK7oHs1M~HQS2rplBnRhBVRTikHZhZBY80BU1T7VubbiFXUK~t2XM9gvKmnQcVbZLXuLQ3FXG14pdwkss5YUN9i7GHEpJSw90e98Vto62pYvCSbIFVuVWMLGC5jQzbTdwzt1i8rwqttAlQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
     background-size: cover;
     background-attachment: fixed;
     color:black ;
@@ -213,23 +240,43 @@ line-height: 100%;
     align-items: center;
     text-align: center;
     padding: 44px 14px 100px 14px;
-    height: 616px;
 
 }
+
 .financial img{
     border-radius: 30px;
+
+}
+
+.financial h5{
+    color: #5AD274;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100.2%;
+}
+.financial h3{
+    color: #EBE789;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 103.2%;
+    letter-spacing: 0.3px;
 }
 
 .financial p{
         color: #FFF;
-    font-size: 16px;
     font-family: Montserrat;
-
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
 }
 /* module */
-.module{
-    background-color: #F1F0EC;
-}
+
 .module ul {
     padding: 40px 0px 10px 0px;
     font-size: 25px;
@@ -299,9 +346,9 @@ font-weight: 700;
         gap: 9px;
         flex-shrink: 0;   
      }
-    .datanalyse  h1{
+    .datanalyse h1,.financial  h1{
         text-align: center;
-        color: #EBE789;
+        color: #9DA0A0;
         /* h1 */
         font-size: 64px;
         font-family: Montserrat;
@@ -319,7 +366,7 @@ font-weight: 700;
         flex-direction: column;
     
     }
-     h3{
+    .annalyse h3{
 
         padding-bottom: 72px;
         color: #B5DDDA;
@@ -329,7 +376,40 @@ font-weight: 700;
         font-weight: 700;
         line-height: 100%;   
     }
+    .about h3{
 
+        padding: 25px 0px;
+        color: #9DA0A0;
+        font-size: 23px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;   
+    }
+
+    .outils h1{
+        color: #EBE789;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+    
+    }
+    .prix{
+        background:  url("https://s3-alpha-sig.figma.com/img/e2da/35cb/ee9e3466138bdfa08b0345fa920252e2?Expires=1689552000&Signature=eGGIpstOYUuKVpuYJ6Xhh0xyFmtXG8ZSV4P~QDnyCYY0oL-n3NMqBInG-ncaDcvK~rCRyOsVurdq4wWpgQE~2XZdmp9L-YRGZ~CDrQC34Rw6fm5uSlfHssn3PP3lSSGu2xEd2nPxYWnr5vQz803ynsXz8fFbcm9bO3qA3vbC2Ae7sv1DPdHxHt4MFcqTeGf877aCxJJFfK7oHs1M~HQS2rplBnRhBVRTikHZhZBY80BU1T7VubbiFXUK~t2XM9gvKmnQcVbZLXuLQ3FXG14pdwkss5YUN9i7GHEpJSw90e98Vto62pYvCSbIFVuVWMLGC5jQzbTdwzt1i8rwqttAlQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4");
+        background-size: cover;
+        background-attachment: fixed;
+        color:black ;
+        display: flex;
+        align-items: center;
+        height: 947px;
+        gap: 44px;
+        flex-shrink: 0;
+        padding: 10px;
+    
+    }
 }
 /* IDEES */
 .datanalyse h1{
@@ -347,7 +427,7 @@ font-weight: 700;
     padding: 72px 0px;
 
 }
- h3{
+.annalyse h3{
 
     padding-bottom: 72px;
     color: #B5DDDA;

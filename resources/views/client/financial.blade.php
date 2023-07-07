@@ -6,15 +6,15 @@ financial
 @section('content')
 {{-- FINANCIAL --}}
 
-<div class="financial  ">
+<div class="financial vh-100 ">
     <div class="container-fluid">
         <div class="row ">
-            <div class="col-lg-6">
+            <div class="col-lg-6 ">
                 <h1>
                     <span style="color:#EBE789">GOLD</span>
                     STREETFINANCIAL
                 </h1>
-                <p>Le secret du succès financier !</p>
+                <h5 style="color:#5AD274" >Le secret du succès financier !</h5>
                 
                 <h3 style="color:#EBE789" >
                     Si vous pouvez obtenir des autres qu’ils creusent eux-mêmes leur propre tombe, Pourquoi vous fatiguer ?
@@ -28,7 +28,7 @@ financial
             </div>
             <form action="{{url('/service')}}" method="get">
                 @csrf
-                <button  class="btn " >RESERVATION </button>
+                <button  class="btn mt-5 " >RESERVATION </button>
             </form>
         </div>
     </div>
@@ -39,10 +39,12 @@ financial
     <div class="container">
         <div class="row ">
             <div class="col-lg-6">
-                 <img style="height:100% ;width:75%" src="{{ asset('frontend/css/images/A1.png')}}"/>
+                <div class="d-flex justify-content-center align-items-center">
+                    <img style="height:100% ;width:75%" src="{{ asset('frontend/css/images/A1.png')}}"/>
+                </div>
             </div>
             <div class="col">
-                <h4>CONNAISSEZ-VOUS LE SECRET DE LA RÉUSSITE DU VAUTOUR QUI OBTIENT TOUJOURS LA MEILLEURE PART ?</h4>
+                <h3>CONNAISSEZ-VOUS LE SECRET DE LA RÉUSSITE DU VAUTOUR QUI OBTIENT TOUJOURS LA MEILLEURE PART ?</h3>
                 <p>Cette formation vous offre l'opportunité de vous démarquer en utilisant des stratégies simples et éprouvées. En développant vos compétences,
                     vous serez en mesure de prendre des décisions éclairées et d'adopter une approche gagnante, vous démarquant ainsi de la masse</p>
             </div>
@@ -56,7 +58,7 @@ financial
             <div class="row ">
                 <div class="col-lg-4  col-md-4">
                     <div class="d-flex justify-content-center my-4  align-items-center">
-                        <h1><span style="color:#EBE789">Outils </span> à utiliser</h1>
+                        <h1>Outils  à utiliser</h1>
                     </div>
                 </div>
                 <div class="col  ">

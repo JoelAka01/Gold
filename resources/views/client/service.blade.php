@@ -11,7 +11,7 @@ SERVICE
             <div class="col">
                 <h1 >
                     GOLDSTREET
-                <span style="color:#D9D9D9">DATANALYSE </span>
+                    <span style="color:#D9D9D9">DATANALYSE </span>
                 </h1>
                 <p >
                     PROPULSE TES RÉSULTATS EN TRADING FOREX AVEC DES INFOS, DATAS ET RECHERCHES PROFESSIONNELS JOURNALIÈRES
