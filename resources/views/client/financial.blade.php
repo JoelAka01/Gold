@@ -6,10 +6,11 @@ financial
 @section('content')
 {{-- FINANCIAL --}}
 
-<div class="financial vh-100 ">
+<section class="financial vh-100 ">
     <div class="container-fluid">
         <div class="row ">
             <div class="col-lg-6 ">
+
                 <h1>
                     <span style="color:#EBE789">GOLD</span>
                     STREETFINANCIAL
@@ -24,7 +25,7 @@ financial
                 </p>     
             </div>
             <div class="col">
-                <img style=" height:100% ;width:50%" src="{{ asset('frontend/css/images/desk1.png')}}"/>
+                <img style=" height:100% ;width:50%" src="{{ asset('frontend/css/images/financialimg.png')}}"/>
             </div>
             <form action="{{url('/service')}}" method="get">
                 @csrf
@@ -32,10 +33,10 @@ financial
             </form>
         </div>
     </div>
-</div>
+</section>
 {{-- ABOUT --}}
 
-<div class="about">
+<section class="about">
     <div class="container">
         <div class="row ">
             <div class="col-lg-6">
@@ -46,12 +47,13 @@ financial
             <div class="col">
                 <h3>CONNAISSEZ-VOUS LE SECRET DE LA RÉUSSITE DU VAUTOUR QUI OBTIENT TOUJOURS LA MEILLEURE PART ?</h3>
                 <p>Cette formation vous offre l'opportunité de vous démarquer en utilisant des stratégies simples et éprouvées. En développant vos compétences,
-                    vous serez en mesure de prendre des décisions éclairées et d'adopter une approche gagnante, vous démarquant ainsi de la masse</p>
+                    vous serez en mesure de prendre des décisions éclairées et d'adopter une approche gagnante, vous démarquant ainsi de la masse
+                </p>
             </div>
         </div>
     </div>
-</div>
-{{-- OUTILS --}}
+</section>
+{{-- OUTILsectionS --}}
 
 <div class="outils">
         <div class="container-fluid "  >
@@ -90,7 +92,7 @@ financial
 
 <div class="module">
     <div class="container">
-        <h1 style="margin-bottom: 38px; color:black">LE CURRICULUM DU PROGRAMME</h1>
+        <h1 >LE CURRICULUM DU PROGRAMME</h1>
         <div class="row ">
             <div class="col-lg-6">
                 <div class="d-flex justify-content-center align-items-center">
@@ -318,7 +320,7 @@ financial
         </div>
     </div>
 </div>
-<img style="width: 100%" src="{{ asset('frontend/css/images/avantage3.jpeg')}}"/>
+{{-- <img style="width: 100%" src="{{ asset('frontend/css/images/avantage3.jpeg')}}"/> --}}
 
 {{-- FAQ --}}
 

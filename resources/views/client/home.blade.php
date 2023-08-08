@@ -8,25 +8,25 @@ home
 
 {{-- banner --}}
 
-<div class="home text-center text-white">
+<section class="home text-center text-white">
     <div class="container">
-    <div class="row align-items-center" style="height: 900px;">
-        <div class="col">
-        <h1 class="display-1">
-            YOUR  <span style="background-color: #1EA47A">TIME</span> TO LEVEL UP
-        </h1>
-
+        <div class="row align-items-center" >
+            <div class="col">
+            <h1 style="padding: 78px 0 17px 0px">
+            <span style="background-color: #EBE789">GOLD</span> STREET 
+            </h1>
+            <p style="padding-bottom: 26px" >Le secret du succès financier !</p>
+                <img style="width:50% ;height:90%" src="{{ asset('frontend/css/images/Mobile.png')}}" alt="Mobile"/>
+            </div>
         </div>
     </div>
-    </div>
-</div>    
+</section>    
     
- 
-<div class=" text-justify"  style="background:#242323 ;color:#ffff; height:70% " >
-    <div class="container " >
+<section class="session2">
+    <div class=" text-justify"  >
         <h2 class="text-center ">ABOUT</h2>          
-        <h1 class="text-center my-5  ">Jean Laurel</h1>
-        <p class="px-5  ">
+        <h1 class="text-center  ">Jean Laurel</h1>
+        <p class=" text-center " >
             Je m&#39;appelle Jean, je suis un trader spécialisé dans les marchés financiers et un gestionnaire de portefeuille privé basé à
             Paris et Miami. Passionné par les marchés financiers, j&#39;aimerais partager mon expertise avec vous, en utilisant toute
             l&#39;expérience que j&#39;ai acquise depuis l&#39;âge de 13 ans. Ayant suivi des études en finance, j&#39;ai eu la chance d&#39;être encadré par
@@ -50,37 +50,26 @@ home
             construire un avenir financier solide.
         </p>
     </div>
-    <div class=" d-flex justify-content-center" >
-        <a href="https://www.instagram.com/afro_french_touch/"><img src="https://static.wixstatic.com/media/40898a93cfff4578b1779073137eb1b4.png/v1/fill/w_53,h_53,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/40898a93cfff4578b1779073137eb1b4.png"></a>
-        <a href="https://www.instagram.com/afro_french_touch/"><img src="https://static.wixstatic.com/media/aeb686ff41244d85bc1232fcf7325ec0.png/v1/fill/w_53,h_53,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/aeb686ff41244d85bc1232fcf7325ec0.png"></a>
-        <a href="https://www.instagram.com/afro_french_touch/"><img src="https://static.wixstatic.com/media/a1fed5f687844a6e8f42e017f71dfcb4.png/v1/fill/w_53,h_53,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/a1fed5f687844a6e8f42e017f71dfcb4.png"></a>
-    </div>
-</div>   
+</section>
+  
 
 
-<div class="container"  >
+<section class="container-fluid"  >
     <div class="d-flex justify-content-center " >
-        <img src="{{ asset('frontend/css/mar.jpeg')}}"/>
+        <img style="width: 90% ;height:50%" src="{{ asset('frontend/css/images/barreHome.png')}}"/>
     </div>
-</div>
+</section>
 
 
 
-<div style="background: #2E2E2E;color:#ffff ">
-    <div class="container" style="height:60% ;" >
-        <h2 class="text-center  "> RETAIL SERVICES</h2>
+<section class="Retail" >
+    <div class="container"  >
+        <h2  > RETAIL SERVICES</h2>
         <div class="row  "  >
-
-            <div class="col-lg-6 d-flex justify-content-center "   >
-                
-                <img src="https://static.wixstatic.com/media/faa724_f96390b9af4541cb825a7a965c8089df~mv2.png/v1/crop/x_12,y_0,w_324,h_287/fill/w_156,h_138,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Screenshot_2020-09-04_at_09_21_edited_pn.png"/>
-    
-            </div>
-            <div class="col " >
-                <h1 >
-                    GOLD STREET FINANCIAL
-                </h1>
-                <hr>
+            <div class="col-lg-6 "   >
+                <div class="d-flex justify-content-center p-0  align-items-center">
+                   <img   src="{{ asset('frontend/css/images/L.png')}}"/>
+                </div>
                 <p>
                     Fruit d'une expertise accumulée au fil des années dans le domaine du trading, je puis affirmer sans réserve que les traders sont souvent influencés par l'effet social, reléguant ainsi la compréhension de l'analyse fondamentale au second plan.
 
@@ -91,45 +80,178 @@ home
                 </p>
                 <form action="{{url('/financial')}}" method="get">
                     @csrf
-                     <button class="btn btn-success" >en savoir plus >></button>
+                     <button class="btn btn-default" >en savoir plus >></button>
                 </form>
+            </div>
+            <div class="col " >
+                    <div   class="d-flex justify-content-center  align-items-center">
+                        <img style="width:100%"  src="{{ asset('frontend/css/images/A .png')}}"/>
+                        <hr>
+                    </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div style="background:#242323 ;color:#ffff ">
+<section class="service" >
     <div class="container"  >
         <div class="row  "  >
+            <div class="col-lg-6 "   >
+                <img style="width: 100%"  src="https://s3-alpha-sig.figma.com/img/e4ee/9166/1dc12ed586e80a26e7b1cd6aafd27adc?Expires=1691971200&Signature=HUqHert-tW5Yt263JDI0xp3DoObyapRw--aW-hUIYTbk-MStEG~1NRms3LG~kjGmCUK0WKSuQOcC1D7OlY74zocknfStClIappcdrd0gskhHcaB7PH20Yz0wXBfcxY5DD2NNwPALq6BydLawp-6ICe8ycRx7reLQ9v-NQEjsnWzUe-CFHJ8zpQBt-FHchgtR~duwahvnx7tAsAprXu8s53rUkJTlzNHyyTou3B7fJogAAMop3av61qhQAHrcchfuJ~CdZxJwMB548YTh3ue1SBvo7bvSmZSTgUTSZUVRCJiUooT8bD7l3G5FWGlM7Q-Hj14FyqRHrv4KcETRb047lg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" class="w-10%">
+            </div>
+
             <div class="col " >
-                <img  src="https://static.wixstatic.com/media/faa724_2dd967b5832044e0a926c8756418a8c6~mv2.png/v1/crop/x_0,y_0,w_280,h_287/fill/w_136,h_135,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/image_PA-removebg-preview%20orngae.png"/>
-                <h2> 
-                    GOLD STREET 
-                     service
-                </h2>
-                <hr>
+                <img style="width:50%"  src="{{ asset('frontend/css/images/ampoule.png')}}"/>
                 <p>
                     Ce service vous offre une vision d'ensemble de la situation économique d'un pays. Les données seront analysées de manière précise, vous permettant ainsi de trader les positions les plus rentables chaque semaine. De plus, cela se fait sans aucun engagement de votre part          
                 </p>
                 <form action="{{url('/financial')}}" method="get">
                     @csrf
-                     <button class="btn btn-warning" >en savoir plus >></button>
+                     <button class="btn btn-default" >en savoir plus >></button>
                 </form>
             </div>
-            <div class="col-lg-6   "   >
-                 <img style="width: 65%"  src="https://static.wixstatic.com/media/faa724_8fcb01c231314108b9a4a1559b781c7d~mv2.png/v1/crop/x_11,y_0,w_584,h_416/fill/w_495,h_350,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Screenshot_2020-09-18_at_11_36_55-remove.png" class="w-10%">
-            </div>
-
         </div>
     </div>
-</div>
-<div class="container"  >
-    <div class="d-flex justify-content-center " >
-        <img sr="" alt=""/>
-    </div>
-</div>
+</section>
 
-<div  style="background:#242323 ;color:#ffff ">
+
+<section class="reviews" style="margin-bottom:214px">
+    <div class="container-fluid">
+        <h2 >REVIEWS</h2>
+
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                        <div class="row align-items-center justify-content-center mt-5">
+                                <div class="col-lg-3 d-none d-lg-block col-6">
+                                    <div class="card border-0" >
+                                        <img src="bicycle-03.jpg" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <p class="lead text-muted text-uppercase">
+                                                GOOD  EXPERIENCE 
+                                            </p>
+                                            <a href="1.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
+                                            <p class="text-muted">
+                                                Je suis extrêmement satisfaite de la formation de trading que j'ai suivie. Les connaissances et les outils que j'ai acquis m'ont permis d'analyser les tendances du marché avec précision et de prendre des décisions éclairées                                                </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 d-none d-lg-block col-6">
+                                    <div class="card border-0" >
+                                        <img src="bicycle-04.jpg" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <p class="lead text-muted text-uppercase">
+                                                GOOD  EXPERIENCE 
+                                            </p>
+                                            <a href="2.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
+                                            <p class="text-muted">
+                                                Les explications fournies par Jean Laurel sont claires, détaillées et m'ont ouvert les yeux sur de nouvelles perspectives. Je recommande vivement cette formation à tous ceux qui souhaitent améliorer leurs compétences en trading                    
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 d-none d-md-block col-6">
+                                        <div class="card border-0" >
+                                            <img src="bicycle-05.jpg" class="card-img-top img-fluid" alt="...">
+                                            <div class="card-body">
+                                                <p class="lead text-muted text-uppercase">
+                                                    GOOD  EXPERIENCE 
+                                                </p>
+                                                <a href="3.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
+                                                <p class="text-muted">
+                                                    La formation de trading que j'ai suivie a transformé ma compréhension des marchés financiers. J'ai appris des stratégies efficaces qui ont amélioré mes résultats de trading, me permettant de réaliser des profits plus importants                     
+                                                </p>
+                                            </div>
+                                        </div>
+                                </div>
+                                <div class="col-lg-3 col-6">
+                                    <div class="card border-0" >
+                                        <img src="bicycle-06.jpg" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                        <p class="lead text-muted text-uppercase">
+                                            GOOD  EXPERIENCE 
+
+                                        </p>
+                                        <a href="4.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
+                                        <p class="text-muted">
+                                            La formation de trading que j'ai suivie a transformé ma compréhension des marchés financiers. J'ai appris des stratégies efficaces qui ont amélioré mes résultats de trading, me permettant de réaliser des profits plus importants                                            </p>
+                                    </div>
+                                    </div>
+                        </div>
+                </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center justify-content-center mt-5">
+                        <div class="col-lg-3 d-none d-lg-block col-6">
+                            <div class="card border-0" >
+                                <img src="bicycle-03.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <p class="lead text-muted text-uppercase">
+                                        GOOD  EXPERIENCE 
+                                    </p>
+                                    <a href="1.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
+                                    <p class="text-muted">
+                                        Je suis extrêmement satisfaite de la formation de trading que j'ai suivie. Les connaissances et les outils que j'ai acquis m'ont permis d'analyser les tendances du marché avec précision et de prendre des décisions éclairées                                                </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 d-none d-lg-block col-6">
+                            <div class="card border-0" >
+                                <img src="bicycle-04.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <p class="lead text-muted text-uppercase">
+                                        GOOD  EXPERIENCE 
+                                    </p>
+                                    <a href="2.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
+                                    <p class="text-muted">
+                                        Les explications fournies par Jean Laurel sont claires, détaillées et m'ont ouvert les yeux sur de nouvelles perspectives. Je recommande vivement cette formation à tous ceux qui souhaitent améliorer leurs compétences en trading                    
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 d-none d-md-block col-6">
+                                <div class="card border-0" >
+                                    <img src="bicycle-05.jpg" class="card-img-top img-fluid" alt="...">
+                                    <div class="card-body">
+                                        <p class="lead text-muted text-uppercase">
+                                            GOOD  EXPERIENCE 
+                                        </p>
+                                        <a href="3.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
+                                        <p class="text-muted">
+                                            La formation de trading que j'ai suivie a transformé ma compréhension des marchés financiers. J'ai appris des stratégies efficaces qui ont amélioré mes résultats de trading, me permettant de réaliser des profits plus importants                     
+                                        </p>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-lg-3 col-6">
+                            <div class="card border-0" >
+                                <img src="bicycle-06.jpg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                <p class="lead text-muted text-uppercase">
+                                    GOOD  EXPERIENCE 
+
+                                </p>
+                                <a href="4.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
+                                <p class="text-muted">
+                                    La formation de trading que j'ai suivie a transformé ma compréhension des marchés financiers. J'ai appris des stratégies efficaces qui ont amélioré mes résultats de trading, me permettant de réaliser des profits plus importants                                            </p>
+                            </div>
+                            </div>
+                </div>
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon position-absolute start-0" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon position-absolute end-0" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+    </div>
+</section>
+{{-- <div  >
     <div class="container">
         <div class="row  "  >
             <div class="d-flex  col justify-content-center   " >
@@ -140,6 +262,36 @@ home
             </div>
         </div>
     </div>
-</div>
+</div> --}}
+<section class="reviews2">
+    <div class="container">
+        <div class="row  "  >
+            <div class="col " >
+                <div   class="d-flex justify-content-center  align-items-center">
+                    <img style="width:100%"  src="{{ asset('frontend/css/images/complet.png')}}"/>
+                    <hr>
+                </div>
+            </div>
+            <div class="col-lg-6 "   >
+                <h3>
+                    Si vous recherchez la formation
+                    la plus complète sur le trading de l'or en France,
+                    vous devriez considérer la formation proposée par 
+                    Gold Street Financial.
+                </h3>
+                <p>
+                    Cette formation en ligne est hautement appréciée 
+                    grâce à son approche méthodique du trading sur le marché de l'or.
+                    Avec de nombreux commentaires vérifiés, ce programme a aidé de nombreux traders particuliers
+                    à développer leurs compétences et à atteindre un niveau institutionnel
+                </p>
+                <form action="{{url('/financial')}}" method="get">
+                    @csrf
+                    <button class="btn btn-default" >en savoir plus >></button>
+                </form>
+            </div>
 
+        </div>
+    </div>
+</section>
 @endsection

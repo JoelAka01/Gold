@@ -5,10 +5,12 @@ SERVICE
 
 @section('content')
 <div class="data">
-<div class="datanalyse p-0 text-center text-white vh-100" >
+<section class="datanalyse p-0 text-center text-white vh-100" >
     <div class="container">
         <div class="row align-items-center" >
             <div class="col">
+                <img style="height:295px ;width:254px" src="{{ asset('frontend/css/images/ampouleDatanalyse.png')}}"/>
+
                 <h1 >
                     GOLDSTREET
                     <span style="color:#D9D9D9">DATANALYSE </span>
@@ -24,40 +26,48 @@ SERVICE
         </div>
     </div>
 
-</div>
+</section>
 
 
 {{-- ANNALYSE --}}
-<div class="analyse"  >
-    <h3>RAPPORT FONDAMENTAL JOURNALIER</h3>
-
+<section class="analyse"  >
     <div class="container ">
+        <h3>RAPPORT FONDAMENTAL JOURNALIER</h3>
         <div class="row">
-            <div class="col-lg-6 ">
+            <div class="col-lg-4 ">
+                <div class="journalier">
                     <h4>ANALYSE JOURNALIER SUR LES MATIERES PREMIERES</h4>
                     <p>Découvrez les avantages inestimables de ma formation qui vous permettra d'exploiter au maximum les opportunités lucratives du marché des matières premières. 
                         En vous appuyant sur mes analyses expertes, vous serez en mesure de prendre des décisions éclairées et d'optimiser vos investissements. Ne manquez pas cette occasion unique de booster 
                         vos résultats et de réaliser des profits significatifs grâce à ma formation exceptionnelle.
                     </p>
-            </div>
-            <div class="col">
-                    <h4>ANALYSE JOURNALIER SUR LES MATIERES PREMIERES</h4>
-                    <p>Découvrez les avantages inestimables de ma formation qui vous permettra d'exploiter au maximum les opportunités lucratives du marché des matières premières. 
-                        En vous appuyant sur mes analyses expertes, vous serez en mesure de prendre des décisions éclairées et d'optimiser vos investissements. Ne manquez pas cette occasion unique de booster 
-                        vos résultats et de réaliser des profits significatifs grâce à ma formation exceptionnelle.
-                    </p>
+                </div>
+
+            <div class="rapport">
+                <h4>RAPPORT FONDAMENTALE JOURNALIER</h4>
+                <p>
+                    Nous vous offrons un rapport fondamental inestimable qui vous permettra d'avoir une vision complète et approfondie du marché. Il est basé sur une analyse minutieuse des événements majeurs, tels que les réunions du FOMC et les actualités les plus impactantes. Ne manquez pas cette occasion de bénéficier d'un avantage stratégique et de rester en avance sur vos concurrents.
+                </p>
             </div>
 
+            </div>
+            <div class="col">
+                <img style="padding-bottom: 20px;"  src="{{ asset('frontend/css/images/datanalyse1.png')}}"/>
+                <form action="{{url('/service')}}" method="get">
+                    @csrf
+                    <button  class="btn mx-5 " style="">EN SAVOIR PLUS>> </button>
+                </form>
+
+            </div>
         </div>
     </div>
-</div>
+</section>
 {{-- IDEES DE TRADERS --}}
-<div class="idees">
-    <h3 >IDEES DE TRADES CHARTISTES:</h3>
-
+<section class="idees">
     <div class="container">
         <div class="row">
-    
+            <h3 >IDEES DE TRADES CHARTISTES:</h3>
+
             <div class="col">
                 <div class="d-flex justify-content-center my-4  align-items-center">
                     <img src="https://img.freepik.com/photos-gratuite/ecran-montrant-donnees-crise-financiere-cause-du-coronavirus_181624-59374.jpg?size=626&ext=jpg&ga=GA1.1.1667228577.1684525808&semt=sph" alt="">
@@ -80,34 +90,34 @@ SERVICE
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="fondamental">
-    <h3>RAPPORT FONDAMENTAL JOURNALIER</h3>
+<section class="fondamental">
     <div class="container">
         <div class="row">
-            <div class="col">
-                <div class="d-flex justify-content-center  align-items-center">
-                    <div class="card "   >
-                        <img  src="https://img.freepik.com/vecteurs-libre/concept-marche-boursier-dessine-main-analystes_23-2149163670.jpg?w=1060&t=st=1687882345~exp=1687882945~hmac=bb4194068a10ea8dddcc8a2cf62081cac715dc40ee8435498e057e87d225e93f" class="card-img-top" alt="...">
+            <div class="col my-2">
+                <div class="d-flex justify-content-center align-items-center">
+                    <div class="card">
+                        <img   src="{{ asset('frontend/css/images/tweedeck.png')}}"/>
                         <div class="card-body">
-                        <h3 class="card-title">Premiers avantage</h3>
+                        <h3 class="card-title">Rapport Fondamentale Avant annonce du taux d’intérêt USD :</h3>
                         <p class="card-text">
-                            Selon les prévisions, une augmentation du taux d'intérêt est anticipée. Cependant, avant même cette annonce, on observe une rupture de résistance sur les obligations à long terme dans l'analyse quotidienne. Cela suggère que l'or est susceptible de connaître une baisse, car il est inversement corrélé aux taux d'intérêt.
-                            En résumé, les obligations à 2 ans réagissent plus rapidement aux changements des taux d'intérêt à court terme décidés par les banques centrales. Ces changements peuvent avoir un impact immédiat sur les rendements des obligations à court terme et influencer la demande pour l'or en tant qu'investissement alternatif.                          </div>
+                            Selon les prévisions, une augmentation du taux d'intérêt est anticipée. Cependant, avant même cette annonce, on observe une rupture de résistance sur les obligations à long terme dans l'analyse quotidienne. Cela suggère que l'or est susceptible de connaître une baisse, car il est inversement corrélé aux taux d'intérêt.                        
+                        </p>
+                    </div>
                     </div>
                 </div>
             </div>
-            <div class="col">
+            <div class="col my-2">
                 <div class="d-flex justify-content-center   align-items-center">
                     <div class="card "  >
-                        <img  src="https://img.freepik.com/vecteurs-libre/concept-marche-boursier-dessine-main-analystes_23-2149163670.jpg?w=1060&t=st=1687882345~exp=1687882945~hmac=bb4194068a10ea8dddcc8a2cf62081cac715dc40ee8435498e057e87d225e93f" class="card-img-top" alt="...">
+                        <img   src="{{ asset('frontend/css/images/tweedeck.png')}}"/>
                         <div class="card-body">
-                        <h3 class="card-title">Deuxième avantage</h3>
+                        <h3 class="card-title">Rapport Fondamentale Inflation Notion Priced :</h3>
                         <p  class="card-text">
                             Quelques jours avant l'annonce de la baisse du CPI, une tendance à la baisse du dollar se manifeste. 
-                            Le jour de l'annonce, on observe une augmentation soudaine du dollar, ce qui suggère que le marché avait déjà
-                             anticipé cette nouvelle et ajusté les prix en conséquence. Cette réaction rapide du marché démontre l'importance de suivre de près les annonces économiques et de comprendre leur impact potentiel sur les devises. En restant attentif à ces mouvements prédictifs, vous serez en mesure de prendre des décisions éclairées dans vos activités de trading ou d'investissement. En effet cela te permet d’avoir un aperçu globale du marché afin de pouvoir minimiser tes risque                        </p>
+                            Le jour de l'annonce, on observe une augmentation soudaine du dollar, ce qui suggère que le marché avait déjà anticipé cette nouvelle et ajusté les prix en conséquence. . En restant attentif à ces mouvements prédictifs, vous serez en mesure de prendre des décisions éclairées dans vos activités de trading ou d'investissement.   
+                        </p>
                         </div>
                     </div>
                 </div>
@@ -115,20 +125,58 @@ SERVICE
 
         </div>
     </div>
-</div>
-<div class="plans">
+</section>
+<section class="fondamental1">
     <div class="container">
-        <div class="row">
-            <img src="{{ asset('frontend/css/images/PLANS.png')}}"/>
+        <div class="row justify-content-between ">
+            <div class="col-lg-3 my-2">
+
+                <div class="d-flex justify-content-center align-items-center">
+                        <div class="card">
+                            <img   src="{{ asset('frontend/css/images/avantage2.jpeg')}}"/>
+                            <div class="card-body">
+                            <h3 class="card-title">Corrélation</h3>
+                            <p class="card-text">
+                                Nous fournissons des analyses sur l'or basées sur les corrélations avec les indices boursiers. Cela nous permet d'évaluer les relations entre l'or et les marchés boursiers, ce qui peut nous aider à prendre des décisions de positionnement sur l'or                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 my-2">
+                <div class="d-flex justify-content-center   align-items-center">
+                    <div class="card "  >
+                        <img   src="{{ asset('frontend/css/images/tweedeck.png')}}"/>
+                        <div class="card-body">
+                        <h3 class="card-title">Volatilités</h3>
+                        <p  class="card-text">
+                            Nous fournissons la volatilité de l'or et de nombreux indices de marché majeurs dans diverses classes d'actifs pour mettre en évidence la façon dont il se compare à ces actifs sur divers horizons temporels et conditions de marché. Cet outil dynamique permet aux investisseurs d'analyser historiquement la volatilité de l'or et de la comparer à celle des principaux actifs sur différents marchés  
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 my-2">
+                <div class="d-flex justify-content-center   align-items-center">
+                    <div class="card "  >
+                        <img   src="{{ asset('frontend/css/images/tweedeck.png')}}"/>
+                        <div class="card-body">
+                        <h3 class="card-title">COT</h3>
+                        <p  class="card-text">
+                            Les gestionnaires de portefeuille sont actuellement engagés dans des achats d'or depuis le 11/04/2022. Cette décision stratégique témoigne de leur confiance dans le potentiel de l'or en tant qu'actif précieux et refuge
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<div class="assistance">
+</section>
+<section class="assistance">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <img src="{{ asset('https://s3-alpha-sig.figma.com/img/c911/4621/4074feedd157fa2c5dd8464716aa4773?Expires=1689552000&Signature=pQC8Gf5ZkPySa4oLv9VlGkVtljf8PMoMe~NJH793Ea94ewvF~OLuGVHPOoor7CCQEH6O6zBx4Fai~QlGfV2nxF7mIPEKb5z3ki2BykmcSI9qARbs1lQw6GHrpxoIR9U~PdTdmLI4M~AMOtZthHaM1WVpYKYxKIwcUSFdtpe9zbfBconj8r3bZTw3wcTfzuSJfdqveFj-woj-Xl03bo3-tDCKXhTIEJitATidztGx8oXjgmxPXsyjsRMx5bZCM0Y9k5gOE41B0CWnbyVQE5AqnjevQCNEL3K7JJLA0aiyqOs8T3uwNkr7Q3FNqsQwEMLxr4d1EzBM2GZ4b-tL3F330w__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4')}}" style="width:100% ;height:469px" />
-                <ul style="color:#D9D9D9">
+                <img src="{{ asset('frontend/css/images/ampoule.png')}}"  />
+                <ul >
                     <li>Suivi et assistance personnalisés pour maximiser vos résultats</li>
                     <li>Accès à des outils et des indicateurs professionnels pour affiner vos analyses</li>
                     <li>Stratégies d'investissement basées sur des modèles éprouvés</li>
@@ -137,14 +185,27 @@ SERVICE
 
                 </ul>
             </div>
-            <div class="col " style="margin-top: 200px">
+            <div class="col " >
                 <div class="d-flex justify-content-center align-items-center">
-                      <img style="width:100%" src="{{ asset('frontend/css/images/desk1.png')}}"/>
+                      <img  src="{{ asset('frontend/css/images/desk1.png')}}"/>
+                      
                 </div>
+                <form action="{{url('/service')}}" method="get">
+                    @csrf
+                    <button  class="btn mx-5 " style="">Rejoindre>> </button>
+                </form>
             </div>
         </div>
     </div>
-</div>
+</section>
+<section clsectionass="plans">
+    <div class="container">
+        <div class="row">
+            <img src="{{ asset('frontend/css/images/PLANS.png')}}"/>
+        </div>
+    </div>
+</section>
+
 {{-- <div style="background-color:#D9D9D9 " >
     <div class="container "  style="padding:90px ">
     <h1 class="text-center "> UN SERVICE UNIQUE EN FRANCE POUR LES TRADERS CONFIRMÉS </h1>
@@ -187,7 +248,7 @@ SERVICE
                         </div>
                         <div class="card-body">
                             <p class="card-text">
-                                approfondie des marchés financiers et des stratégies de trading efficaces. 
+                                j’ai approfondie des marchés financiers et des stratégies de trading efficaces. 
                                 Grâce à cela, j'ai pu améliorer mes résultats de trading et réaliser des profits plus significatifs. 
                                 Je recommande vivement cette formation à tous ceux qui souhaitent développer leurs compétences en trading." - Anne
                             </p>
@@ -206,9 +267,7 @@ SERVICE
                         </div>
                         <div class="card-body">
                             <p class="card-text">
-                                approfondie des marchés financiers et des stratégies de trading efficaces. 
-                                Grâce à cela, j'ai pu améliorer mes résultats de trading et réaliser des profits plus significatifs. 
-                                Je recommande vivement cette formation à tous ceux qui souhaitent développer leurs compétences en trading." - Anne
+                                Grâce à la formation de Gold Street Financial, j'ai pu maîtriser les subtilités des marchés de l'or et développer des stratégies de trading efficaces. Cela m'a permis d'obtenir des résultats plus cohérents et d'accroître mes gains en trading de l'or. Je recommande vivement cette formation à tous ceux qui veulent se perfectionner dans ce domaine." - Sophie
                             </p>
                             <div class="d-flex justify-content-center align-items-center">
                                 <button type="button" style="color:#FFF" class="btn btn-block  " >Savoir plus </button>
@@ -225,9 +284,7 @@ SERVICE
                         </div>
                         <div class="card-body">
                             <p class="card-text">
-                                approfondie des marchés financiers et des stratégies de trading efficaces. 
-                                Grâce à cela, j'ai pu améliorer mes résultats de trading et réaliser des profits plus significatifs. 
-                                Je recommande vivement cette formation à tous ceux qui souhaitent développer leurs compétences en trading." - Anne
+                                La formation de Gold Street Financial m'a donné une perspective approfondie sur le trading de l'or. J'ai appris des techniques précieuses pour analyser les tendances du marché et prendre des décisions de trading rentables. Depuis que j'ai suivi cette formation, mes résultats ont connu une nette amélioration et je me sens beaucoup plus confiant dans mes décisions de trading
                             </p>
                             <div class="d-flex justify-content-center align-items-center">
                                 <button type="button" style="border-radius: 68px;
