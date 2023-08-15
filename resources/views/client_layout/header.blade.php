@@ -6,16 +6,24 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item m-2">
+          {{-- <li class="nav-item m-2">
             <a class="nav-link" href="{{url('/financial')}}">GOLDSTREET FINANCIAL</a>
-          </li>
+          </li> --}}
           <li class="nav-item m-2">
             <a class="nav-link" href="{{url('/service')}}"> datanalyse management</a>
           </li>
           <li class="nav-item m-2">
             <a class="nav-link"  target="_blank" href="{{url('https://t.me/GOLD_STREETT')}}">Telegrame</a>
           </li>
-
+          <li class="nav-item m-2">
+            <a class="nav-link" href="{{url('/login')}}"> Login</a>
+          </li>
+          <li class="nav-item m-2">
+            <form action="{{url('/addtocart')}}" method="get">
+              @csrf
+               <button class="btn btn-default" >SignUp</button>
+            </form>
+          </li>
         </ul>
 
       </div>

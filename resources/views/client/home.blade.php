@@ -16,7 +16,7 @@ home
             <span style="background-color: #EBE789">GOLD</span> STREET 
             </h1>
             <p style="padding-bottom: 26px" >Le secret du succès financier !</p>
-                <img style="width:50% ;height:90%" src="{{ asset('frontend/css/images/Mobile.png')}}" alt="Mobile"/>
+                <img style="max-width:100% ;height:400px" src="{{ asset('frontend/css/images/Mobile.png')}}" alt="Mobile"/>
             </div>
         </div>
     </div>
@@ -56,7 +56,7 @@ home
 
 <section class="container-fluid"  >
     <div class="d-flex justify-content-center " >
-        <img style="width: 90% ;height:50%" src="{{ asset('frontend/css/images/barreHome.png')}}"/>
+        <img style="width: 80% ;height:50%" src="{{ asset('frontend/css/images/barreHome.png')}}"/>
     </div>
 </section>
 
@@ -78,10 +78,10 @@ home
                    À travers mes modules, je vous guiderai dans l'art de riposter avec finesse et de vous ériger en tant que prédateur avisé sur le marché financier.
                    
                 </p>
-                <form action="{{url('/financial')}}" method="get">
+                {{-- <form action="{{url('/financial')}}" method="get">
                     @csrf
                      <button class="btn btn-default" >en savoir plus >></button>
-                </form>
+                </form> --}}
             </div>
             <div class="col " >
                     <div   class="d-flex justify-content-center  align-items-center">
@@ -105,7 +105,7 @@ home
                 <p>
                     Ce service vous offre une vision d'ensemble de la situation économique d'un pays. Les données seront analysées de manière précise, vous permettant ainsi de trader les positions les plus rentables chaque semaine. De plus, cela se fait sans aucun engagement de votre part          
                 </p>
-                <form action="{{url('/financial')}}" method="get">
+                <form action="{{url('/service')}}" method="get">
                     @csrf
                      <button class="btn btn-default" >en savoir plus >></button>
                 </form>
@@ -115,142 +115,100 @@ home
 </section>
 
 
-<section class="reviews" style="margin-bottom:214px">
+<section class="reviews" style="margin-bottom: 20px;">
     <div class="container-fluid">
-        <h2 >REVIEWS</h2>
-
+        <h2 class="text-center">REVIEWS</h2>
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
+                
                 <div class="carousel-item active">
-                        <div class="row align-items-center justify-content-center mt-5">
-                                <div class="col-lg-3 d-none d-lg-block col-6">
-                                    <div class="card border-0" >
-                                        <img src="bicycle-03.jpg" class="card-img-top img-fluid" alt="...">
-                                        <div class="card-body">
-                                            <p class="lead text-muted text-uppercase">
-                                                GOOD  EXPERIENCE 
-                                            </p>
-                                            <a href="1.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
-                                            <p class="text-muted">
-                                                Je suis extrêmement satisfaite de la formation de trading que j'ai suivie. Les connaissances et les outils que j'ai acquis m'ont permis d'analyser les tendances du marché avec précision et de prendre des décisions éclairées                                                </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 d-none d-lg-block col-6">
-                                    <div class="card border-0" >
-                                        <img src="bicycle-04.jpg" class="card-img-top img-fluid" alt="...">
-                                        <div class="card-body">
-                                            <p class="lead text-muted text-uppercase">
-                                                GOOD  EXPERIENCE 
-                                            </p>
-                                            <a href="2.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
-                                            <p class="text-muted">
-                                                Les explications fournies par Jean Laurel sont claires, détaillées et m'ont ouvert les yeux sur de nouvelles perspectives. Je recommande vivement cette formation à tous ceux qui souhaitent améliorer leurs compétences en trading                    
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 d-none d-md-block col-6">
-                                        <div class="card border-0" >
-                                            <img src="bicycle-05.jpg" class="card-img-top img-fluid" alt="...">
-                                            <div class="card-body">
-                                                <p class="lead text-muted text-uppercase">
-                                                    GOOD  EXPERIENCE 
-                                                </p>
-                                                <a href="3.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
-                                                <p class="text-muted">
-                                                    La formation de trading que j'ai suivie a transformé ma compréhension des marchés financiers. J'ai appris des stratégies efficaces qui ont amélioré mes résultats de trading, me permettant de réaliser des profits plus importants                     
-                                                </p>
-                                            </div>
-                                        </div>
-                                </div>
-                                <div class="col-lg-3 col-6">
-                                    <div class="card border-0" >
-                                        <img src="bicycle-06.jpg" class="card-img-top img-fluid" alt="...">
-                                        <div class="card-body">
-                                        <p class="lead text-muted text-uppercase">
-                                            GOOD  EXPERIENCE 
-
-                                        </p>
-                                        <a href="4.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
-                                        <p class="text-muted">
-                                            La formation de trading que j'ai suivie a transformé ma compréhension des marchés financiers. J'ai appris des stratégies efficaces qui ont amélioré mes résultats de trading, me permettant de réaliser des profits plus importants                                            </p>
-                                    </div>
-                                    </div>
-                        </div>
-                </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="row align-items-center justify-content-center mt-5">
-                        <div class="col-lg-3 d-none d-lg-block col-6">
-                            <div class="card border-0" >
-                                <img src="bicycle-03.jpg" class="card-img-top img-fluid" alt="...">
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card border-0">
                                 <div class="card-body">
-                                    <p class="lead text-muted text-uppercase">
-                                        GOOD  EXPERIENCE 
+                                    <p class="lead text-uppercase">GOOD EXPERIENCE</p>
+                                    <p>
+                                        I am extremely satisfied with the trading course I've taken. The knowledge and tools I've acquired have enabled me to analyze market trends accurately and make informed decisions.
                                     </p>
-                                    <a href="1.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
-                                    <p class="text-muted">
-                                        Je suis extrêmement satisfaite de la formation de trading que j'ai suivie. Les connaissances et les outils que j'ai acquis m'ont permis d'analyser les tendances du marché avec précision et de prendre des décisions éclairées                                                </p>
+                                    <h4>Melvin</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 d-none d-lg-block col-6">
-                            <div class="card border-0" >
-                                <img src="bicycle-04.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card border-0">
                                 <div class="card-body">
-                                    <p class="lead text-muted text-uppercase">
-                                        GOOD  EXPERIENCE 
+                                    <p class="lead text-uppercase">EXCELLENT TRAINING</p>
+                                    <p>
+                                        The trading course I attended has transformed my understanding of financial markets. I've learned effective strategies that have improved my trading results, allowing me to achieve more significant profits.
                                     </p>
-                                    <a href="2.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
-                                    <p class="text-muted">
-                                        Les explications fournies par Jean Laurel sont claires, détaillées et m'ont ouvert les yeux sur de nouvelles perspectives. Je recommande vivement cette formation à tous ceux qui souhaitent améliorer leurs compétences en trading                    
-                                    </p>
+                                    <h4>Faustine</h4>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 d-none d-md-block col-6">
-                                <div class="card border-0" >
-                                    <img src="bicycle-05.jpg" class="card-img-top img-fluid" alt="...">
-                                    <div class="card-body">
-                                        <p class="lead text-muted text-uppercase">
-                                            GOOD  EXPERIENCE 
-                                        </p>
-                                        <a href="3.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
-                                        <p class="text-muted">
-                                            La formation de trading que j'ai suivie a transformé ma compréhension des marchés financiers. J'ai appris des stratégies efficaces qui ont amélioré mes résultats de trading, me permettant de réaliser des profits plus importants                     
-                                        </p>
-                                    </div>
-                                </div>
-                        </div>
-                        <div class="col-lg-3 col-6">
-                            <div class="card border-0" >
-                                <img src="bicycle-06.jpg" class="card-img-top img-fluid" alt="...">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card border-0">
                                 <div class="card-body">
-                                <p class="lead text-muted text-uppercase">
-                                    GOOD  EXPERIENCE 
-
-                                </p>
-                                <a href="4.html" class="link-dark fw-bolder stretched-link fs-3 text-lowercase">Mountain</a>
-                                <p class="text-muted">
-                                    La formation de trading que j'ai suivie a transformé ma compréhension des marchés financiers. J'ai appris des stratégies efficaces qui ont amélioré mes résultats de trading, me permettant de réaliser des profits plus importants                                            </p>
+                                    <p class="lead text-uppercase">HIGHLY RECOMMENDED</p>
+                                    <p>
+                                        The trading course I took has revolutionized my comprehension of financial markets. I've gained valuable insights into trading strategies that have significantly enhanced my profitability.
+                                    </p>
+                                    <h4>Theo</h4>
+                                </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- You can add additional carousel items here with similar structure -->
+                <div class="carousel-item ">
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <p class="lead text-uppercase">GOOD EXPERIENCE</p>
+                                    <p>
+                                        I am extremely satisfied with the trading course I've taken. The knowledge and tools I've acquired have enabled me to analyze market trends accurately and make informed decisions.
+                                    </p>
+                                    <h4>Melvin</h4>
+                                </div>
                             </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <p class="lead text-uppercase">EXCELLENT TRAINING</p>
+                                    <p>
+                                        The trading course I attended has transformed my understanding of financial markets. I've learned effective strategies that have improved my trading results, allowing me to achieve more significant profits.
+                                    </p>
+                                    <h4>Faustine</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="card border-0">
+                                <div class="card-body">
+                                    <p class="lead text-uppercase">HIGHLY RECOMMENDED</p>
+                                    <p>
+                                        The trading course I took has revolutionized my comprehension of financial markets. I've gained valuable insights into trading strategies that have significantly enhanced my profitability.
+                                    </p>
+                                    <h4>Theo</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                </div>
-
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon position-absolute start-0" aria-hidden="true"></span>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                <span class="carousel-control-next-icon position-absolute end-0" aria-hidden="true"></span>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-            </div>
+        </div>
     </div>
 </section>
+
 {{-- <div  >
     <div class="container">
         <div class="row  "  >
