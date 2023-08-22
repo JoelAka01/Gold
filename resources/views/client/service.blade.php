@@ -4,7 +4,7 @@ SERVICE
 @endsection
 
 @section('content')
-<div class="data hidden">
+<div class="data ">
 <section class="datanalyse p-0 text-center text-white " >
     <div class="container">
         <div class="row align-items-center" >
@@ -30,7 +30,7 @@ SERVICE
 
 
 {{-- ANNALYSE --}}
-<section class="analyse hidden"  >
+<section class="analyse "  >
     <div class="container ">
         <h3>RAPPORT FONDAMENTAL JOURNALIER</h3>
         <div class="row ">
@@ -66,7 +66,7 @@ SERVICE
 
 
 
-<section class="fondamental hidden">
+<section class="fondamental ">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col my-2">
@@ -101,7 +101,7 @@ SERVICE
     </div>
 </section>
 {{-- IDEES DE TRADERS --}}
-<section class="idees hidden">
+<section class="idees ">
     <div class="container">
         <div class="row">
             <h3>IDEES DE TRADES CHARTISTES:</h3>
@@ -148,7 +148,7 @@ SERVICE
         </div>
     </div>
 </section>
-<section class="fondamental1 hidden">
+<section class="fondamental1 ">
     <div class="container">
         <div class="row justify-content-center ">
             <div class="col-lg-3 my-2">
@@ -219,7 +219,7 @@ SERVICE
         </div>
     </div>
 </section>
-<section id="plans hidden" class="plans">
+<section id="plans " class="plans">
     <div class="container">
         <a href="https://t.me/GoldStreetDatanalyseBot">
             <div class="row">
@@ -260,7 +260,7 @@ SERVICE
     <button type="button" class="btn btn-block btn-lg " style="background-color:  ; margin: auto; display: block;"> REJOINDRE </button>
     </div>
 </div> --}}
-<div class="question hidden">
+<div class="question ">
     <div class="container">
         <div class="row">
             <div class="col">

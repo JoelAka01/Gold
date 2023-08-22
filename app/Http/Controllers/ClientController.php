@@ -11,6 +11,14 @@ use App\Http\Validation\RegisterValidation;
 
 class ClientController extends Controller
 {
+        // public  function registerOrder(Request $request) {
+    //     $user = Order::create([
+    //         'email' => $request->input('email'),
+    //         'names' => $request->input('name')." ".$request->input('lastname'),
+    //         'address' => $request->input('address'),
+    //     ]);
+    //     return response()->json($user);
+    // }
     //
     public function home(){
         $products=Product::get();
